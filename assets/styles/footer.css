@@ -1,0 +1,67 @@
+.nyhedsbrev {
+    background-color: rgb(170, 170, 170);
+    display: flex;
+    padding-top: 1%;
+}
+
+.tilmeld {
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#indtastEmail {
+    border-radius: 10px;
+    border: none;
+    height: 28px;
+    font-style: italic;
+    font-size: 15px;
+    padding-right: 3%;
+}
+
+.indtastIkon {
+    height: 20px;
+}
+
+.footerKnapper {
+    text-align: center;
+    padding-top: 40px;
+    background-color: gray;
+}
+
+.footerKnap {
+    padding: 6px 30px 6px 30px;
+    background-color: rgb(170, 170, 170);
+    border-radius: 5px;
+    border: white 1px solid;
+    font-size: 14px;
+    margin: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.footerKnap:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+.ytLogoBox {
+    background-color: gray;
+    display: flex;
+    justify-content: right;
+    padding-right: 15%;
+    
+    
+}
+
+.ytLogo {
+    height: 30px;
+    border-radius: 532px;
+    border: white 1px solid;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.afsluttendeText {
+    text-align: center;
+    background-color: gray;
+}

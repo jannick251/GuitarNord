@@ -31,7 +31,7 @@
 
 .footerKnap {
     padding: 6px 30px 6px 30px;
-    background-color: rgb(170, 170, 170);
+    background-color: gray;
     border-radius: 5px;
     border: white 1px solid;
     font-size: 14px;
@@ -49,8 +49,6 @@
     display: flex;
     justify-content: right;
     padding-right: 15%;
-    
-    
 }
 
 .ytLogo {
@@ -65,4 +63,8 @@
     text-align: center;
     background-color: gray;
     color: white;
+}
+
+.logoG {
+    font-size: 40px;
 }

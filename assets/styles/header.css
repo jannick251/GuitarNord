@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    color: var(--white);
+    font-size: 16px;
+}
+
+
+/* Colors for variants */
+:root {
+    --white: #fff;
+    --black: #000;
+    --lightGrey: #bebebe;
+    --grey: #949494;
+    --darkGrey: #545454;
+}
+
+body {
+    background-color: white;
+}
+
+
+/* Header */
+header {
+    height: 15vw;
+    width: auto;
+    background-color: var(--lightGrey);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+
+a {
+    color: var(--black);
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+a:hover {
+    cursor: pointer;
+    color: var(--white);
+}
+
+button:hover {
+    cursor: pointer;
+    color: var(--black);
+}
+
+.logo:hover {
+    color: var(--black);
+}
+
+.logoFaqKontaktContainer {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4% 5% 0 5%;
+}
+
+.logo {
+    height: 100%;
+    width:  70%;
+    font-size: 4vw;
+    margin-top: -2%;
+}
+
+.faqKontaktContainer {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 30%;
+}
+
+.faqButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 2vw 0 2vw;
+    border: 1px var(--darkGrey) solid;
+    background-color: var(--grey);
+    border-style: none;
+    border-radius: 2px;
+}
+
+.kontaktButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 2vw 0 2vw;
+    border: 1px var(--darkGrey) solid;
+    background-color: var(--grey);
+    border-style: none;
+    border-radius: 2px;
+}
+
+nav {
+    height: 30%;
+    width: 100%;
+    background-color: var(--darkGrey);
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav > * {
+    color: var(--white);
+    padding: 0% 2% 0 2%;
+    font-size: 1.1vw;
+}
+
+nav > *:hover {
+    color: var(--black);
+}
+
+
+.navButtons {
+
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdownMenu {
+    position: absolute;
+    /* left: 0; */
+    top: calc(100% + 1rem);
+    color: var(--black);
+    background-color: var(--lightGrey);
+    padding: 0 25% 50% 0;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+}
+
+.dropdown > .onlineundervisning:focus + .dropdownMenu {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.onlineundervisning {
+    color: var(--white);
+    border-style: none;
+    background-color: var(--darkGrey);
+}

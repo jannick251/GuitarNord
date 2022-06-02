@@ -186,7 +186,7 @@ footer{
     padding-top: 0px;
     padding-left: 0%;
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 55px;
 }
 
 .ytLogo {
@@ -202,12 +202,16 @@ footer{
     background-color: gray;
     color: white;
     padding-left: 0%;
-    height: 200px;
+    height: 150px;
 }
 
 .logoG {
-    font-size: 20px;
-    padding-top: 15%;
+    font-size: 30px;
+    padding-top: 5%;
     height: 20px;
+}
+
+.footerKontaktOverskrift {
+    font-size: 20px;
 }
   }

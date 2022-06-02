@@ -1,6 +1,18 @@
+
+footer{
+    width: auto;
+    background-color: var(--lightGrey);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+/* Følgende er nyhedsbrevsektionen*/
 .nyhedsbrev {
     background-color: rgb(170, 170, 170);
     display: flex;
+    width: auto;
     padding-top: 1%;
 }
 
@@ -16,19 +28,32 @@
     height: 28px;
     font-style: italic;
     font-size: 15px;
-    padding-right: 3%;
+    padding-right: 3%;  
+}
+
+.emailBoks {
+    padding-top: 12px;
+}
+
+.flyerFigur {
+    padding-top: 15px;
+    padding-left: 12px;
 }
 
 .indtastIkon {
     height: 20px;
 }
 
+
+/*Footer*/
+/*Knapper i footer, alle elementer*/
 .footerKnapper {
     text-align: center;
-    padding-top: 40px;
+    padding-top: 10px;
     background-color: gray;
 }
 
+/*Knapper i footer, enkelte elementer*/
 .footerKnap {
     padding: 6px 30px 6px 30px;
     background-color: gray;
@@ -40,15 +65,28 @@
     cursor: pointer;
 }
 
+/*Knapper i footer, hover*/
 .footerKnap:hover {
     background-color: rgb(200, 200, 200);
 }
 
-.ytLogoBox {
+
+.adresseYT {
     background-color: gray;
     display: flex;
+    padding-left: 15%;
+}
+
+.adresseBoks {
+    justify-content: left;
+    color: white;
+}
+
+.ytLogoBox {
     justify-content: right;
-    padding-right: 15%;
+    padding-top: 70px;
+    padding-left: 27.5%;
+    padding-top: 5.5%;
 }
 
 .ytLogo {
@@ -63,8 +101,124 @@
     text-align: center;
     background-color: gray;
     color: white;
+    padding-left: 27.5%;
+    height: 200px;
 }
 
 .logoG {
     font-size: 40px;
+    padding-top: 15%;
+    height: 20px;
 }
+
+
+
+
+@media only screen and (max-width: 480px) {
+    footer { 
+        width: auto;
+    }
+
+    /* Følgende er nyhedsbrevsektionen*/
+    .nyhedsbrev {
+        flex: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .tilmeld {
+        color: white;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    
+    #indtastEmail {
+        border-radius: 10px;
+        border: none;
+        height: 28px;
+        font-style: italic;
+        font-size: 15px;
+        padding-right: 3%;  
+    }
+    
+    .emailBoks {
+        padding-top: 12px;
+    }
+    
+    .flyerFigur {
+        padding-top: 15px;
+        padding-left: 0px;
+    }
+    
+    .indtastIkon {
+        height: 20px;
+        padding-bottom: 20px;
+    }
+
+    /*ovenstående er nyhedsbrevsektionen*/
+
+/*Footer*/
+/*Knapper i footer, alle elementer*/
+.footerKnapper {
+    padding-top: 10px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Knapper i footer, enkelte elementer*/
+.footerKnap {
+    padding: 6px 50px 6px 50px;
+    width: 170px;
+    text-align: left;
+}
+
+/*Knapper i footer, hover*/
+
+
+.adresseYT {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0%;
+}
+
+.adresseBoks {
+    color: white;
+    text-align: center;
+}
+
+.ytLogoBox {
+    padding-top: 0px;
+    padding-left: 0%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.ytLogo {
+    height: 30px;
+    border-radius: 532px;
+    border: white 1px solid;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+
+.afsluttendeText {
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding-left: 0%;
+    height: 200px;
+}
+
+.logoG {
+    font-size: 20px;
+    padding-top: 15%;
+    height: 20px;
+}
+
+
+
+
+  }

@@ -7,6 +7,7 @@ function emailTak() {
 // ---Emailkode slut---
 
 
+
 // ---DropdownMenu start---
 // Lytter efter klik på dropdownMenu i dokumentet, klikker vi inden i eller uden for en dropdownMenu
 document.addEventListener('click', e => {

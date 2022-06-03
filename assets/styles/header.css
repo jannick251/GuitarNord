@@ -9,16 +9,6 @@ html {
     font-size: 16px;
 }
 
-
-/* Colors for variants */
-:root {
-    --white: #fff;
-    --black: #000;
-    --lightGrey: #bebebe;
-    --grey: #949494;
-    --darkGrey: #545454;
-}
-
 body {
     background-color: white;
 }
@@ -110,13 +100,13 @@ nav {
     align-self: flex-end;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 nav > * {
     color: var(--white);
     padding: 0% 2% 0 2%;
-    font-size: 1.1vw;
+    font-size: 1vw;
 }
 
 nav > *:hover {
@@ -124,17 +114,10 @@ nav > *:hover {
 }
 
 
-.navButtons {
-
-}
-
-.dropdown {
-    position: relative;
-}
-
 .dropdownMenu {
+    width: 80%;
     position: absolute;
-    /* left: 0; */
+    left: 15%;
     top: calc(100% + 1rem);
     color: var(--black);
     background-color: var(--lightGrey);
@@ -143,17 +126,65 @@ nav > *:hover {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
     opacity: 0;
     pointer-events: none;
-    transform: translateY(-10px);
-    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+    transform: translateY(-20px);
+    transition: opacity 200ms ease-in-out, transform 250ms ease-in-out;
 }
 
-.dropdown > .onlineundervisning:focus + .dropdownMenu {
+.dropdownKnap {
+    color: var(--white);
+    border: none;
+    background-color: var(--darkGrey);
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdownMenu > a {
+    font-size: inherit;
+    margin: 10%;
+    
+}
+
+.dropdown.active > .dropdownKnap + .dropdownMenu {
     opacity: 1;
+    transform: translateY(-10px);
     pointer-events: auto;
 }
 
-.onlineundervisning {
-    color: var(--white);
-    border-style: none;
-    background-color: var(--darkGrey);
+.dropdown.active > .dropdownKnap,
+.dropdownKnap:hover {
+    color: var(--black);
 }
+
+
+.omUndervisningenKnap {
+    margin-left: 4%;
+}
+
+.onlineundervisningKnap {
+    
+    
+}
+
+.holdundervisningKnap {
+
+}
+
+.komGodtIGangKnap {
+
+}
+
+.GratisLektionerKnap {
+
+}
+
+.loginForEleverKnap {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+

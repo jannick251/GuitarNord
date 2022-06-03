@@ -1,5 +1,11 @@
 
 
+/*Fosidebillede*/
+.forsideBillede{
+  width: 100%;
+  opacity: 55%;
+}
+
 /* Første sektion på forside der leder til om-mig herunder */
 /*OVERSKRIFT*/
 .overskriftForside {
@@ -43,12 +49,13 @@
 }
 
 .flexSektionOmForsideKnap {
-  text-align: center;
   background-color: rgb(4, 182, 206);
   border: none;
   border-radius: 12%;
   padding: 0.3rem 2.5rem 0.3rem 2.5rem;
   cursor: pointer;
+  justify-content: center;
+  align-items: center;
 }
 
 .flexSektionOmForsideKnapIndhold {
@@ -112,6 +119,7 @@
 
 .videoerSektion{
   background-color: rgb(199, 199, 199);
+  padding-bottom: 4%;
 }
 
 .videoerSektionVideoer {
@@ -134,5 +142,9 @@
   padding: 2rem;
   flex: 33%;
 
+}
+
+.mereKnap {
+  text-align: center;
 }
 /* Alt herover er sektionen med videoer */

@@ -159,6 +159,33 @@ nav > *:hover {
     color: var(--black);
 }
 
+.dropdownUnderMenu {
+    width: 80%;
+    position: absolute;
+    left: 100%;
+    top: calc(100% - 85%);
+    color: var(--black);
+    background-color: var(--lightGrey);
+    padding: 0 25% 50% 0;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    opacity: 1;
+    pointer-events: none;
+    transform: translateY(-20px);
+    transition: opacity 200ms ease-in-out, transform 250ms ease-in-out;
+}
+
+.instrumentøvelserKnap {
+    background-color: var(--lightGrey);
+    color: inherit;
+}
+
+.dropdownUnderMenu:hover,
+.dropdownUnderMenu:target {
+    color: var(--white);
+    opacity: 1;
+}
+
 
 .omUndervisningenKnap {
     margin-left: 4%;
@@ -174,7 +201,7 @@ nav > *:hover {
 }
 
 .komGodtIGangKnap {
-
+    width: 25%;
 }
 
 .GratisLektionerKnap {

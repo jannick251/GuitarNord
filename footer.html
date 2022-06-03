@@ -3,35 +3,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Footer</title>
     <link rel="stylesheet" href="./assets/styles/styles.css">
     <link rel="stylesheet" href="./assets/styles/footer.css">
     <script src="./assets/script/script.js" defer></script>
 </head>
 <body>
+
+    <footer>
     <section>
         <div class="nyhedsbrev">
             <p class="tilmeld">Tilmeld dig nyhedsbrevet for at blive opdateret om nye hold og flere gratis lektioner!</p>
-            <input type="email" id="indtastEmail" placeholder="Indtast din mailadresse">
-            <input class="indtastIkon" type="image" src="./assets/images/paper-plane-solid.png" onclick="emailTak()" />
+            <div class="emailBoks">
+                <input type="email" id="indtastEmail" placeholder="Indtast din mailadresse">
+            </div>
+            <div class="flyerFigur">
+                <input class="indtastIkon" type="image" src="./assets/images/paper-plane-solid.png" onclick="emailTak()" />
+            </div>
         </div>
     </section>
 
     <section class="footerKnapper">
         <div>
             <button class="footerKnap">Startside</button>
-            <button class="footerKnap">Ofte stillede spørgsmål</button>
+            <button class="footerKnap">FAQ</button>
             <button class="footerKnap">Kontakt</button>
         </div>
     </section>
-    <section class="ytLogoBox">
-        <img class="ytLogo" src="./assets/images/youtube-brands.png" alt="YouTube">
+    <section class="adresseYT">
+        <div class="adresseBoks">
+            <h5 class="footerKontaktOverskrift">Adresse</h5>
+            <p>FOF Aalborg</p>
+            <p>Hobrovej 465E</p>
+            <p>9000 Aalborg</p>
+        </div>
+        <section class="afsluttendeText">
+            <p class="logoG">GUITARNORD</p>
+            <p>@ 2022 Guitarnord</p>
+        </section>
+        <div class="ytLogoBox">
+            <a href="https://www.youtube.com/channel/UCOKHdI13HevWmQyPoNVTk3g"><img src="./assets/images/youtube-brands.png" alt="Youtube" class="ytLogo"></a>
+        </div>
+    </footer>
     </section>
-    <section class="afsluttendeText">
-        <img class="logoG" src="#" alt="GUITARNORD">
-        <p>@ 2022 Guitarnord</p>
-        <p>INDTAST ADRESSE JANNICK</p>
-    </section>
+    
     
 
 

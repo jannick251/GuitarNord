@@ -34,7 +34,7 @@
 
         <div class="dropdown" data-dropdown>
 
-            <button href="HUUUUUUSK-LINK-SIDE!?!?!?" class="dropdownKnap" data-dropdown-button>Holdundervisning <i class="fas fa-angle-down"></i></button>
+            <button class="dropdownKnap" data-dropdown-button>Holdundervisning <i class="fas fa-angle-down"></i></button>
             
             <div class="dropdownMenu">
                 <a href="HUUUUUUSK-LINK-SIDE!?!?!?" class="">Guitar</a>
@@ -51,10 +51,10 @@
 
         </div>
 
-        
-        <div class="dropdown">
 
-            <button href="HUUUUUUSK-LINK-SIDE!?!?!?" class="dropdownKnap" data-dropdown-button>Kom godt igang <i class="fas fa-angle-down"></i></button>
+        <div class="dropdown" data-dropdown>
+
+            <button class="dropdownKnap" data-dropdown-button>Kom godt igang <i class="fas fa-angle-down"></i></button>
 
             <div class="dropdownMenu">
                 <a href="HUUUUUUSK-LINK-SIDE!?!?!?" class="">Lær at stemme dit instrument</a>
@@ -66,11 +66,29 @@
 
         </div>
 
-        <a href="HUUUUUUSK-LINK-SIDE!?!?!?" class="GratisLektionerKnap">Gratis lektioner <i class="fas fa-angle-down"></i></a>
-
-
-        <a href="HUUUUUUSK-LINK-SIDE!?!?!?" class="loginForEleverKnap">Login for elever </a>
+        <div class="dropdown" data-dropdown>
+            
+            <button class="dropdownKnap" data-dropdown-button>Gratis lektioner <i class="fas fa-angle-down"></i></button>
         
+            <div class="dropdownMenu">
+                <a href="HUUUUUUSK-LINK-SIDE!?!?!?" class="">Instrumentøvelser</a>
+                <br>
+                <a href="HUUUUUUSK-LINK-SIDE!?!?!?" class="">Hørelære</a>
+            </div>
+
+        </div>
+
+        <button class="loginForEleverKnap dropdownKnap" data-dropdown-button>Login for elever </button>
+
+        <div class="dropdownMenu" data-dropdown>
+            <form class="loginForm">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email"></input>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+            </form>
+        </div>
+
     </nav>
 
 </header>

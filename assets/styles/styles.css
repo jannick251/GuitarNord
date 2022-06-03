@@ -1,3 +1,13 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Colors for variants */
+:root {
+    --white: #fff;
+    --black: #000;
+    --lightGrey: #bebebe;
+    --grey: #949494;
+    --darkGrey: #545454;
+}

@@ -14,7 +14,7 @@ body {
 }
 
 
-/* Header */
+/* ---Header--- */
 header {
     height: 15vw;
     width: auto;
@@ -113,7 +113,6 @@ nav > *:hover {
     color: var(--black);
 }
 
-
 .dropdownMenu {
     width: 80%;
     position: absolute;
@@ -208,11 +207,67 @@ nav > *:hover {
 
 }
 
+.burgermenu {
+    display: none;
+}
+
 .loginForEleverKnap {
     width: 25%;
     margin-right: 7%;
     display: flex;
     justify-content: flex-end;
+    font-size: 1.1vw;
+}
+
+.loginPil {
+    margin: 1% 0 0 3%;
 }
 
 
+
+/* MediaQuery start */
+@media only screen and (max-width: 480px) {
+
+    header {
+        height: 22vw;
+    }
+
+    .logo {
+        font-size: 6.5vw;
+    }
+
+    .faqButton {
+        font-size: 2.5vw;
+        border-radius: 5px;
+    }
+
+    .kontaktButton {
+        font-size: 2.5vw;
+        border-radius: 5px;
+    }
+
+    nav {
+        height: 35%;
+        flex-direction: row;
+        position: relative;
+    }
+
+    .mobileHide {
+        display: none;
+    }
+
+    .loginForEleverKnap {
+        font-size: 2.5vw;
+        margin-left: -43%;
+    }
+
+    .loginPil {
+        margin: 2% 0 0 4%;
+    }
+
+    .burgermenu {
+        display: block;
+        margin-left: 43%;
+    }
+
+}

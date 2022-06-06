@@ -113,20 +113,128 @@ nav > *:hover {
     color: var(--black);
 }
 
-.dropdownMenu {
+.dropdownMenu1 {
+    height: auto;
     width: 80%;
     position: absolute;
     left: 15%;
     top: calc(100% + 1rem);
     color: var(--black);
     background-color: var(--lightGrey);
-    padding: 0 25% 50% 0;
     border-radius: 2px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
     opacity: 0;
     pointer-events: none;
     transform: translateY(-20px);
     transition: opacity 200ms ease-in-out, transform 250ms ease-in-out;
+}
+
+.dropdownMenu1 > a {
+    width: 100%;
+    font-size: inherit;
+    padding: 2% 5% 2% 5%;
+    display: flex;
+}
+
+.dropdownMenu1 > a:hover {
+    width: 100%;
+    font-size: inherit;
+    padding: 5% 5% 5% 5%;
+    background-color: var(--darkGrey);
+    
+}
+
+.dropdown.active > .dropdownKnap + .dropdownMenu1 {
+    opacity: 1;
+    transform: translateY(-10px);
+    pointer-events: auto;
+}
+
+.dropdownMenu2 {
+    height: 10vw;
+    width: 138%;
+    position: absolute;
+    left: 15%;
+    top: calc(100% + 1rem);
+    color: var(--black);
+    background-color: var(--lightGrey);
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-20px);
+    transition: opacity 200ms ease-in-out, transform 250ms ease-in-out;
+}
+
+.dropdownMenu2 > a {
+    width: 100%;
+    font-size: inherit;
+    padding: 2% 5% 2% 5%;
+    display: flex;
+}
+
+.dropdownMenu2 > a:hover {
+    width: 100%;
+    font-size: inherit;
+    padding: 5% 5% 5% 5%;
+    background-color: var(--darkGrey);  
+}
+
+.dropdown.active > .dropdownKnap + .dropdownMenu2 {
+    opacity: 1;
+    transform: translateY(-10px);
+    pointer-events: auto;
+}
+
+.dropdownMenu3 {
+    height: 10vw;
+    width: 138%;
+    position: absolute;
+    left: 15%;
+    top: calc(100% + 1rem);
+    color: var(--black);
+    background-color: var(--lightGrey);
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-20px);
+    transition: opacity 200ms ease-in-out, transform 250ms ease-in-out;
+}
+
+.dropdownMenu3 > a {
+    width: 100%;
+    font-size: inherit;
+    padding: 2% 5% 2% 5%;
+    display: flex;
+}
+
+.dropdownMenu3 > a:hover {
+    width: 100%;
+    font-size: inherit;
+    padding: 5% 5% 5% 5%;
+    background-color: var(--darkGrey);  
+}
+
+.dropdown.active > .dropdownKnap + .dropdownMenu3 {
+    opacity: 1;
+    transform: translateY(-10px);
+    pointer-events: auto;
+}
+
+.dropdownMenu3 > button {
+    width: 100%;
+    font-size: inherit;
+    padding: 2% 5% 2% 5%;
+    display: flex;
+}
+
+.dropdownMenu3 > button:hover {
+    width: 100%;
+    font-size: inherit;
+    color: var(--white);
+    padding: 5% 5% 5% 5%;
+    background-color: var(--darkGrey);  
 }
 
 .dropdownKnap {
@@ -139,18 +247,6 @@ nav > *:hover {
 
 .dropdown {
     position: relative;
-}
-
-.dropdownMenu > a {
-    font-size: inherit;
-    margin: 10%;
-    
-}
-
-.dropdown.active > .dropdownKnap + .dropdownMenu {
-    opacity: 1;
-    transform: translateY(-10px);
-    pointer-events: auto;
 }
 
 .dropdown.active > .dropdownKnap,

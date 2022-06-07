@@ -14,7 +14,7 @@ body {
 }
 
 
-/* Header */
+/* ---Header--- */
 header {
     height: 15vw;
     width: auto;
@@ -22,8 +22,6 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
-    
 }
 
 a {
@@ -100,13 +98,14 @@ nav {
     align-self: flex-end;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 }
 
 nav > * {
     color: var(--white);
     padding: 0% 2% 0 2%;
     font-size: 1vw;
+    margin-left: 2%;
 }
 
 nav > *:hover {
@@ -114,21 +113,6 @@ nav > *:hover {
 }
 
 
-.dropdownMenu {
-    width: 80%;
-    position: absolute;
-    left: 15%;
-    top: calc(100% + 1rem);
-    color: var(--black);
-    background-color: var(--lightGrey);
-    padding: 0 25% 50% 0;
-    border-radius: 2px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
-    opacity: 0;
-    pointer-events: none;
-    transform: translateY(-20px);
-    transition: opacity 200ms ease-in-out, transform 250ms ease-in-out;
-}
 
 .dropdownKnap {
     color: var(--white);
@@ -142,77 +126,367 @@ nav > *:hover {
     position: relative;
 }
 
-.dropdownMenu > a {
-    font-size: inherit;
-    margin: 10%;
-    
-}
-
-.dropdown.active > .dropdownKnap + .dropdownMenu {
-    opacity: 1;
-    transform: translateY(-10px);
-    pointer-events: auto;
-}
-
 .dropdown.active > .dropdownKnap,
 .dropdownKnap:hover {
     color: var(--black);
 }
 
-.dropdownUnderMenu {
-    width: 80%;
+
+
+.dropdownMenu1 {
+    height: auto;
+    width: 70%;
     position: absolute;
-    left: 100%;
-    top: calc(100% - 85%);
+    left: 15%;
+    top: calc(100% + 1rem);
     color: var(--black);
     background-color: var(--lightGrey);
-    padding: 0 25% 50% 0;
     border-radius: 2px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
-    opacity: 1;
+    opacity: 0;
     pointer-events: none;
     transform: translateY(-20px);
     transition: opacity 200ms ease-in-out, transform 250ms ease-in-out;
 }
 
+.dropdownMenu1 > a {
+    width: 100%;
+    font-size: inherit;
+    padding: 2% 5% 2% 5%;
+    display: flex;
+}
+
+.dropdownMenu1 > a:hover {
+    width: 100%;
+    font-size: inherit;
+    padding: 5% 5% 5% 5%;
+    background-color: var(--darkGrey);
+    
+}
+
+.dropdown.active > .dropdownKnap + .dropdownMenu1 {
+    opacity: 1;
+    transform: translateY(-10px);
+    pointer-events: auto;
+}
+
+.dropdownMenu2 {
+    height: 10vw;
+    width: 128%;
+    position: absolute;
+    left: 15%;
+    top: calc(100% + 1rem);
+    color: var(--black);
+    background-color: var(--lightGrey);
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-20px);
+    transition: opacity 200ms ease-in-out, transform 250ms ease-in-out;
+}
+
+.dropdownMenu2 > a {
+    width: 100%;
+    font-size: inherit;
+    padding: 2% 5% 2% 5%;
+    display: flex;
+}
+
+.dropdownMenu2 > a:hover {
+    width: 100%;
+    font-size: inherit;
+    padding: 5% 5% 5% 5%;
+    background-color: var(--darkGrey);  
+}
+
+.dropdown.active > .dropdownKnap + .dropdownMenu2 {
+    opacity: 1;
+    transform: translateY(-10px);
+    pointer-events: auto;
+}
+
+.dropdownMenu3 {
+    height: 5vw;
+    width: 88%;
+    position: absolute;
+    left: 15%;
+    top: calc(100% + 1rem);
+    color: var(--black);
+    background-color: var(--lightGrey);
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-20px);
+    transition: opacity 200ms ease-in-out, transform 250ms ease-in-out;
+}
+
+.dropdownMenu3 > a {
+    width: 100%;
+    font-size: inherit;
+    padding: 2% 5% 2% 5%;
+    display: flex;
+}
+
+.dropdownMenu3 > a:hover {
+    width: 100%;
+    font-size: inherit;
+    padding: 5% 5% 5% 5%;
+    background-color: var(--darkGrey);  
+}
+
+.dropdown.active > .dropdownKnap + .dropdownMenu3 {
+    opacity: 1;
+    transform: translateY(-10px);
+    pointer-events: auto;
+}
+
+.dropdownMenu3 > button {
+    width: 100%;
+    font-size: inherit;
+    padding: 2% 5% 2% 5%;
+    display: flex;
+}
+
+.dropdownMenu3 > button:hover {
+    width: 100%;
+    font-size: inherit;
+    color: var(--white);
+    padding: 5% 5% 5% 5%;
+    background-color: var(--darkGrey);  
+}
+
+.dropdownUnderMenu3 {
+    height: 10.2vw;
+    width: 112%;
+    position: absolute;
+    left: 100%;
+    top: calc(100% - 60%);
+    color: var(--black);
+    background-color: var(--lightGrey);
+    padding: 0 25% 50% 0;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-20px);
+    transition: opacity 200ms ease-in-out, transform 250ms ease-in-out;
+    font-size: 1vw;
+}
+
+.dropdown.active > .dropdownKnap + .dropdownUnderMenu3 {
+    opacity: 1;
+    transform: translateY(-10px);
+    pointer-events: auto;
+}
+
 .instrumentøvelserKnap {
     background-color: var(--lightGrey);
     color: inherit;
+    padding: 5% 5% 0 5%;
 }
 
-.dropdownUnderMenu:hover,
-.dropdownUnderMenu:target {
+.instrumentøvelserKnap:hover {
+    width: 100%;
+    padding: 5% 5% 5% 5%;
+    background-color: var(--darkGrey);  
     color: var(--white);
-    opacity: 1;
 }
 
+.dropdownUnderMenu3 > a {
+    width: 100%;
+    font-size: inherit;
+    padding: 2% 5% 2% 5%;
+    display: flex;
+}
+
+.dropdownUnderMenu3 > a:hover {
+    width: 100%;
+    padding: 5% 5% 5% 5%;
+    background-color: var(--darkGrey);  
+}
+
+.dropdownMenu4 {
+    display: flex;
+    flex-direction: column;
+    height: 10vw;
+    width: 80%;
+    position: absolute;
+    left: 70%;
+    top: calc(100% + 1rem);
+    color: var(--black);
+    background-color: var(--lightGrey);
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-20px);
+    transition: opacity 200ms ease-in-out, transform 250ms ease-in-out;
+}
+
+.dropdownMenu4 > a {
+    width: 100%;
+    font-size: inherit;
+    padding: 2% 5% 2% 5%;
+    display: flex;
+}
+
+.dropdownMenu4 > a:hover {
+    width: 100%;
+    font-size: inherit;
+    padding: 5% 5% 5% 5%;
+    background-color: var(--darkGrey);  
+}
+
+.dropdown.active > .dropdownKnap + .dropdownMenu4 {
+    opacity: 1;
+    transform: translateY(-10px);
+    pointer-events: auto;
+}
+
+.loginForm {
+    padding: .5vw;
+}
+
+.loginForm > input {
+    margin-bottom: 1vw;
+}
 
 .omUndervisningenKnap {
     margin-left: 4%;
-}
-
-.onlineundervisningKnap {
-    
-    
-}
-
-.holdundervisningKnap {
-
 }
 
 .komGodtIGangKnap {
     width: 25%;
 }
 
-.GratisLektionerKnap {
-
+.burgermenu {
+    display: none;
 }
 
 .loginForEleverKnap {
-    width: 25%;
-    margin-right: 7%;
+    width: 10vw;
+    margin-left: 40%;
     display: flex;
     justify-content: flex-end;
+    font-size: 1.1vw;
 }
 
+.loginPil {
+    margin: 1% 0 0 3%;
+}
 
+.dropdownMenu3 > button:hover
+{
+    width: 100%;
+    font-size: inherit;
+    color: var(--white);
+    padding: 5% 5% 5% 5%;
+    background-color: var(--darkGrey);  
+}
+
+/* MediaQuery start */
+@media only screen and (max-width: 480px) {
+
+    header {
+        height: 22vw;
+    }
+
+    .logo {
+        font-size: 6.5vw;
+    }
+
+    .faqButton {
+        font-size: 2.5vw;
+        border-radius: 5px;
+    }
+
+    .kontaktButton {
+        font-size: 2.5vw;
+        border-radius: 5px;
+    }
+
+    nav {
+        height: 35%;
+        flex-direction: row;
+        position: relative;
+    }
+
+    .mobileHide {
+        display: none;
+    }
+
+    .loginForEleverKnap {
+        height: auto;
+        width: 17vw;
+        font-size: 2.5vw;
+        margin-left: -43%;
+        border: 1px var(--white) solid;
+        padding: .5vw;
+        background-color: var(--Grey);
+        border-radius: 3px;
+    }
+
+    .dropdownMenu4 {
+        height: 25vw;
+        width: 25vw;
+        font-size: 2.5vw;
+        left: -30%;
+        top: calc(100% + 1rem);
+        color: var(--black);
+        background-color: var(--lightGrey);
+        border-radius: 2px;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-20px);
+        transition: opacity 200ms ease-in-out, transform 250ms ease-in-out;
+    }
+
+    .loginPil {
+        margin: 2% 0 0 4%;
+    }
+
+    .burgermenu {
+        display: block;
+        margin-left: 46%;
+    }
+
+    .dropdownMenu1 {
+        height: 100%;
+        width: 70%;
+        position: absolute;
+        left: 15%;
+        top: calc(100% + 1rem);
+        color: var(--black);
+        background-color: var(--lightGrey);
+        border-radius: 2px;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-20px);
+        transition: opacity 200ms ease-in-out, transform 250ms ease-in-out;
+    }
+    
+    .dropdownBurgerMenu > a {
+        width: 100%;
+        font-size: inherit;
+        padding: 2% 5% 2% 5%;
+        display: flex;
+    }
+    
+    .dropdownBurgerMenu > a:hover {
+        width: 100%;
+        font-size: inherit;
+        padding: 5% 5% 5% 5%;
+        background-color: var(--darkGrey);
+        
+    }
+    
+    .dropdown.active > .dropdownKnap + .dropdownBurgerMenu {
+        opacity: 1;
+        transform: translateY(-10px);
+        pointer-events: auto;
+    }
+}

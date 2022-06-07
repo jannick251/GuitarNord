@@ -198,8 +198,11 @@
     font-size: 20px;
     display: inline;
     text-align: center;
-    padding-bottom: 3rem;
+  }
 
+  .flexSektionOmForsideListe{
+    padding-bottom: 22%;
+    font-size: 18px;
   }
 
   .billedeBox{

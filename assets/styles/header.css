@@ -114,7 +114,7 @@ nav > *:hover {
 
 .dropdownMenu1 {
     height: auto;
-    width: 80%;
+    width: 70%;
     position: absolute;
     left: 15%;
     top: calc(100% + 1rem);
@@ -151,7 +151,7 @@ nav > *:hover {
 
 .dropdownMenu2 {
     height: 10vw;
-    width: 138%;
+    width: 128%;
     position: absolute;
     left: 15%;
     top: calc(100% + 1rem);
@@ -187,7 +187,7 @@ nav > *:hover {
 
 .dropdownMenu3 {
     height: 10vw;
-    width: 138%;
+    width: 80%;
     position: absolute;
     left: 15%;
     top: calc(100% + 1rem);
@@ -302,20 +302,28 @@ nav > *:hover {
     color: var(--black);
 }
 
-.dropdownUnderMenu2 {
-    width: 80%;
+.dropdownUnderMenu3 {
+    height: 100%;
+    width: 112%;
     position: absolute;
     left: 100%;
-    top: calc(100% - 85%);
+    top: calc(100% - 86%);
     color: var(--black);
     background-color: var(--lightGrey);
     padding: 0 25% 50% 0;
     border-radius: 2px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
-    opacity: 1;
+    opacity: .5;
     pointer-events: none;
     transform: translateY(-20px);
     transition: opacity 200ms ease-in-out, transform 250ms ease-in-out;
+    font-size: 1vw;
+}
+
+.dropdown.active > .dropdownKnap + .dropdownUnderMenu3 {
+    opacity: 1;
+    transform: translateY(-10px);
+    pointer-events: auto;
 }
 
 .instrumentøvelserKnap {
@@ -323,10 +331,18 @@ nav > *:hover {
     color: inherit;
 }
 
-.dropdownUnderMenu2:hover,
-.dropdownUnderMenu2:target {
-    color: var(--white);
-    opacity: 1;
+.dropdownUnderMenu3 > a {
+    width: 100%;
+    font-size: inherit;
+    padding: 2% 5% 2% 5%;
+    display: flex;
+}
+
+.dropdownUnderMenu3 > a:hover {
+    width: 100%;
+    font-size: inherit;
+    padding: 5% 5% 5% 5%;
+    background-color: var(--darkGrey);  
 }
 
 

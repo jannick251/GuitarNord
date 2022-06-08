@@ -1,0 +1,78 @@
+.overskriftKontakt{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-top: 3%;
+}
+
+.kontaktformular {
+    padding: 0.1% 7% 3% 7%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.sendBesked{
+    text-align: center;
+}
+
+input[type=text], select, textarea {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+  padding: 18px;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+    background-color: rgb(4, 182, 206);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ justify-content: center;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 0.1% 4% 3% 4%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.venstre, .højre {
+    flex: 50%;
+}
+
+
+#map { 
+    display: flex;
+    height: 250px; 
+    width: 740px;
+}
+
+@media only screen and (max-width: 480px) {
+    #map { 
+        width: auto;
+        
+    }
+
+    input[type=text], select, textarea {
+        width: 100%;
+      
+    }
+
+    .tekstIFormular {
+        width: auto;
+    }
+    
+}

@@ -1,0 +1,90 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="./assets/styles/footer.css">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="stylesheet" href="./assets/styles/kontakt.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+        integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+        crossorigin="" />
+    <script src="./assets/script/kort.js" defer></script>
+    <script src="./assets/script/script.js" defer></script>
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+        integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+        crossorigin=""></script>
+
+</head>
+
+<body>
+
+<section class="overskriftKontakt">
+    <h1>Kontakt</h1>
+</section>
+<section class="kontaktformular">
+    <div class="container">
+        <div class="venstre">
+            <form action="./kontakt.html">
+                <h2>Kontaktformular</h2>
+                <input type="text" id="navn" name="navn" placeholder="Navn">
+                <input type="text" id="mail" name="mail" placeholder="Mail">
+                <textarea id="besked" name="besked" placeholder="Besked" style="height:200px"></textarea>
+            <div class="sendBesked">
+                <input type="submit" value="Send besked" onclick="beskedTak()">
+            </div>
+            </div>
+            <div class="højre">
+                <p class="tekstIFormular">Skriv til mig via kontaktformularen, hvis du er interesseret i at tilmelde dig et af mine hold eller for at aftale en gratis prøvelektion i forbindelse med onlineundervisning</p>
+                <p class="tekstIFormular">Kontakt mig også hvis du har nogle spørgsmål eller særlige ønsker</p>
+                <h4>Adresse</h4>
+                <p class="tekstIFormular">FOF Aalborg, Hobrovej 465E</p>
+                <p class="tekstIFormular">9000 Aalborg</p>
+                <div id="map"></div>
+            </div>
+            
+        </form>
+    </div>
+</section>
+
+<footer>
+    <section>
+        <div class="nyhedsbrev">
+            <p class="tilmeld">Tilmeld dig nyhedsbrevet for at blive opdateret om nye hold og flere gratis lektioner!</p>
+            <div class="emailBoks">
+                <input type="email" id="indtastEmail" placeholder="Indtast din mailadresse">
+            </div>
+            <div class="flyerFigur">
+                <input class="indtastIkon" type="image" src="./assets/images/paper-plane-solid.png" onclick="emailTak()" />
+            </div>
+        </div>
+    </section>
+
+    <section class="footerKnapper">
+        <div>
+            <button class="footerKnap">Startside</button>
+            <button class="footerKnap">FAQ</button>
+            <button class="footerKnap">Kontakt</button>
+        </div>
+    </section>
+    <section class="adresseYT">
+        <div class="adresseBoks">
+            <h5 class="footerKontaktOverskrift">Adresse</h5>
+            <p>FOF Aalborg</p>
+            <p>Hobrovej 465E</p>
+            <p>9000 Aalborg</p>
+        </div>
+        <section class="afsluttendeText">
+            <p class="logoG">GuitarNord</p>
+            <p>@ 2022 Guitarnord</p>
+        </section>
+        <div class="ytLogoBox">
+            <a href="https://www.youtube.com/channel/UCOKHdI13HevWmQyPoNVTk3g"><img src="./assets/images/youtube-brands.png" alt="Youtube" class="ytLogo"></a>
+        </div>
+    </section>
+    </footer>
+</body>
+
+</html>

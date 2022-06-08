@@ -1,0 +1,93 @@
+.holdElementer {
+    padding-top: 2%;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 2%;
+    background-color: rgb(160, 160, 160);
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+}
+
+.holdElement {
+    padding: 2%;
+    background-color: white;
+    width: 100%;
+}
+
+.holdNavn {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.holdTid {
+    font-size: 16px;
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+}
+
+.holdInfo {
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+}
+
+.pladserTilbage {
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
+
+.prisPrLektion {
+    color: rgb(4, 182, 206);
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-block-end: .1em;
+}
+
+.iAltPris {
+    font-size: 16px;
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+}
+
+.tilmeldHoldKnap {
+    background-color: rgb(59, 59, 59);
+  color: white;
+  padding: 8px 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ justify-content: center;
+}
+
+.tilmeldHoldKnapTekst {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 class="holdNavn">Guitar for begyndere</h1>
+<h3 class="holdTid">Mandag 12:15-13:45</h3>
+<p class="holdInfo">Periode: 12/09-12/12</p>
+<p class="holdInfo">13 lektioner af 90 minutter</p>
+<p class="pladserTilbage">4 pladser tilbage</p>
+<h4 class="prisPrLektion">106 kr/lektion</h4>
+<h5 class="iAltPris">i alt 1386 kr.</h5>
+<button class="tilmeldHoldKnap">
+    <a href="#" class="tilmeldHoldKnapTekst">Tilmeld</a>
+</button>

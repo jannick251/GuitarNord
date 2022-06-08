@@ -111,7 +111,7 @@
 .flexUkelele,
 .flexMandolin {
   padding: 10px;
-  border: black 2px dotted;
+  border: black 4px dotted;
   font-size: 25px;
   border-radius: 100%;
   padding-top: 9.5%;
@@ -270,6 +270,8 @@
     text-align: center;
     color: rgb(4, 182, 206);
     margin-block-start: 0em;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 
   .sektionMedFlexInstrumenter {

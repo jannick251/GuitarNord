@@ -32,3 +32,17 @@ document.addEventListener('click', e => {
   })
 })
 // ---DropdownMenu slut---
+
+
+
+
+
+
+/* Tilbage til toppen knap */
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+
+

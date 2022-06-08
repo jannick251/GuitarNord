@@ -8,12 +8,16 @@
     <link rel="stylesheet" href="./assets/styles/holdundervisning.css">
     <link rel="stylesheet" href="./assets/styles/footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <script src="./assets/script/script.js"></script>
    
 </head>
 <body>
-
-    <section>
-        <article>
+<section>
+    <img class="forsideBillede" src="./assets/images/fe2ceeed-075a-46cc-856a-30bcf5c5748d.png" alt="herobilledeAfGuitar">
+    <h1 class="overskriftUndervisning">Holdundervisning i Guitar</h1>
+</section>
+    <section class="sektionIntro">
+        <article class="sektionVenstre">
             <h3>Lær at spille guitar</h3>
             <p>Hvis du har lyst til at lære at spille guitar eller at forbedre dit nuværende niveau, så er du kommet til det rette sted.</p>
             <p>Guitaren er et dejligt instrument med mange muligheder. Den har så mange muligheder, at det næsten er umuligt at lære det hele. Det er derfor
@@ -28,7 +32,7 @@
                 lige til døren og der er tilmed mange gratis parkeringspladser. 
             </p>
         </article>
-        <article>
+        <article class="sektionRight">
             <h3>Guitar for begyndere</h3>
             <p>Guitar for begyndere er holdet for dig, som ikke før har gået til guitar. Her vil du komme igennem alt det basale, så du kan få en god start med guitaren.
                 Du vil lære akkorder, rytmer, becifring og spændende teknikker, og vi vil spille sange fra før og nu. Medbring selv guitar.
@@ -44,9 +48,6 @@
             </p>
         </article>
     </section>
-
-
-
     <section class="holdElementer">
         <article class="holdElement">
             <h1 class="holdNavn">Guitar for begyndere</h1>
@@ -147,5 +148,62 @@
             </button>
         </article>
     </section>
+
+    <section class="sektionFandtIkke">
+        <div>
+            <h3 class="fandtIkke">Fandt du ikke et hold, som passede dig?</h3>
+            <h5 class="kontaktSammen">Kontakt mig angående specielle ønsker og lad 
+                os sammen finde en løsning
+            </h5>
+            <div class="knapTilmeldU">
+                <button class="tilmeldHoldKnapUndervisning">
+                    <a href="#" class="tilmeldHoldKnapTekst">Kontakt</a>
+                </button>
+            </div>
+
+            
+            <div class="tilbageTilTop">
+                <a class="tilbageTilTop" onclick="topFunction()" id="tilbageTilTop" title="Tilbage til toppen">Tilbage til toppen</a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <section>
+            <div class="nyhedsbrev">
+                <p class="tilmeld">Tilmeld dig nyhedsbrevet for at blive opdateret om nye hold og flere gratis lektioner!</p>
+                <div class="emailBoks">
+                    <input type="email" id="indtastEmail" placeholder="Indtast din mailadresse">
+                </div>
+                <div class="flyerFigur">
+                    <input class="indtastIkon" type="image" src="./assets/images/paper-plane-solid.png" onclick="emailTak()" />
+                </div>
+            </div>
+        </section>
+    
+        <section class="footerKnapper">
+            <div>
+                <button class="footerKnap">Startside</button>
+                <button class="footerKnap">FAQ</button>
+                <button class="footerKnap">Kontakt</button>
+            </div>
+        </section>
+        <section class="adresseYT">
+            <div class="adresseBoks">
+                <h5 class="footerKontaktOverskrift">Adresse</h5>
+                <p>FOF Aalborg</p>
+                <p>Hobrovej 465E</p>
+                <p>9000 Aalborg</p>
+            </div>
+            <section class="afsluttendeText">
+                <p class="logoG">GuitarNord</p>
+                <p>@ 2022 Guitarnord</p>
+            </section>
+            <div class="ytLogoBox">
+                <a href="https://www.youtube.com/channel/UCOKHdI13HevWmQyPoNVTk3g"><img src="./assets/images/youtube-brands.png" alt="Youtube" class="ytLogo"></a>
+            </div>
+        </section>
+        </footer>
 </body>
 </html>

@@ -3,8 +3,6 @@ window.onscroll = function () {
   onScrollChecks();
 };
 
-
-
 let map = L.map("map").setView([57.0033035, 9.8796337], 16);
 
 L.tileLayer(

@@ -22,9 +22,10 @@ document.addEventListener('click', e => {
   currentDropdown.classList.toggle('active')
   }
 
-  // Lukker alle andre dropdownMenuer som ikke er den der er klikket på
-  document.querySelectorAll("[data.dropdown].active").forEach(dropdown => {
+  // Lukker andre dropdownMenuer som der ikke klikkes på
+  document.querySelectorAll("[data-dropdown].active").forEach(dropdown => {
     if (dropdown === currentDropdown) 
+
     return
     
     dropdown.classList.remove('active')

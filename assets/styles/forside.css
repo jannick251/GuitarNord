@@ -1,29 +1,34 @@
-
-
 /*Fosidebillede*/
-.forsideBillede{
+.forsideBillede {
   width: 100%;
   opacity: 55%;
 }
 
 /* Første sektion på forside der leder til om-mig herunder */
+
+.overskriftOnline{
+  font-size: 50px;
+}
 /*OVERSKRIFT*/
 .overskriftForside {
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .flexSektionOmForside {
   display: flex;
   font-size: 20px;
   padding-left: 10%;
+  padding-top: 4%;
   text-align: center;
   padding-bottom: 3rem;
+
 }
 
 .flexSektionOmForsideBillede {
   padding: 10px;
-  width: 200px;
+  width: 80%;
   flex: 50%;
 }
 
@@ -62,19 +67,24 @@
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
+
+.flexSektionOmForsideListe{
+  padding-bottom: 2%;
+}
+
 /* Første sektion på forside der leder til om-mig herover */
 
 
 /* Alt herunder er de 5 runder knapper */
 /* Overskrifter*/
-.overskrifterForside{
+.overskrifterForside {
   font-size: 30px;
   text-align: center;
   margin-block-end: 0em;
   padding-top: 3rem;
 }
 
-.underoverskriftForside{
+.underoverskriftForside {
   font-size: 20px;
   text-align: center;
   color: rgb(4, 182, 206);
@@ -95,13 +105,17 @@
   padding-right: 20%;
 }
 
-.flexGuitar, .flexElguitar, .flexBas, .flexUkelele, .flexMandolin {
+.flexGuitar,
+.flexElguitar,
+.flexBas,
+.flexUkelele,
+.flexMandolin {
   padding: 10px;
   border: black 2px dotted;
   font-size: 25px;
   border-radius: 100%;
-  padding-top: 7.5%;
-  padding-bottom: 7.5%;
+  padding-top: 9.5%;
+  padding-bottom: 9.5%;
   margin-right: 2%;
   flex: 10%;
   cursor: pointer;
@@ -109,7 +123,11 @@
   color: black;
 }
 
-.flexGuitar:hover, .flexElguitar:hover, .flexBas:hover, .flexUkelele:hover, .flexMandolin:hover {
+.flexGuitar:hover,
+.flexElguitar:hover,
+.flexBas:hover,
+.flexUkelele:hover,
+.flexMandolin:hover {
   background-color: rgb(200, 200, 200);
 }
 
@@ -117,7 +135,7 @@
 
 /* Alt herunder er sektionen med videoer */
 
-.videoerSektion{
+.videoerSektion {
   background-color: rgb(199, 199, 199);
   padding-bottom: 4%;
 }
@@ -133,11 +151,13 @@
   padding: 2rem;
   flex: 33%;
 }
+
 #video2 {
   padding: 2rem;
   flex: 33%;
 
 }
+
 #video3 {
   padding: 2rem;
   flex: 33%;
@@ -147,4 +167,189 @@
 .mereKnap {
   text-align: center;
 }
+
 /* Alt herover er sektionen med videoer */
+
+
+
+/* Alt herunder er CSS der tilpasser websitet til mobilstørrelser på maks 480p */
+@media only screen and (max-width: 480px) {
+
+  /*Fosidebillede*/
+  .forsideBillede {
+    width: 100%;
+    opacity: 55%;
+  }
+
+  .overskriftOnline{
+    font-size: 30px;
+    text-align: center;
+  }
+
+  /* Første sektion på forside der leder til om-mig herunder */
+  /*OVERSKRIFT*/
+  .overskriftForside {
+    font-size: 30px;
+    text-align: center;
+    padding: 0px 1rem 0px 1rem;
+  }
+
+  .flexSektionOmForside {
+    font-size: 20px;
+    display: inline;
+    text-align: center;
+  }
+
+  .flexSektionOmForsideListe{
+    padding-bottom: 22%;
+    font-size: 18px;
+  }
+
+  .billedeBox{
+    width: auto;
+  }
+
+  .flexSektionOmForsideBillede {
+    padding: 10px;
+    width: 90%;
+    flex: 0%;
+  }
+
+
+  .flexSektionOmForsideTekstBoks {
+    padding: 10px;
+    flex: 0%;
+    padding-left: 5%;
+    padding-right: 10%;
+    text-align: left;
+    margin-block-start: 0px;
+    margin-block-end: .01em;
+  }
+
+  .flexSektionOmForsideTekst {
+    margin-block-start: 0px;
+    margin-block-end: 2em;
+  }
+
+  .flexSektionOmForsideTekstOverskrift {
+    font-size: 22px;
+    margin-block-start: .2em;
+    margin-block-end: 0px;
+  }
+
+  .flexSektionOmForsideKnap {
+    background-color: rgb(4, 182, 206);
+    border: none;
+    border-radius: 12%;
+    padding: 0.7rem 2.5rem 0.7rem 2.5rem;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+  }
+
+  .flexSektionOmForsideKnapIndhold {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+  /* Første sektion på forside der leder til om-mig herover */
+
+
+  /* Alt herunder er de 5 runder knapper */
+  /* Overskrifter*/
+  .overskrifterForside {
+    font-size: 22px;
+    text-align: center;
+    margin-block-end: 0em;
+    padding-top: 0rem;
+  }
+
+  .underoverskriftForside {
+    font-size: 16px;
+    text-align: center;
+    color: rgb(4, 182, 206);
+    margin-block-start: 0em;
+  }
+
+  .sektionMedFlexInstrumenter {
+    padding-bottom: 2rem;
+  }
+
+  /* De runde knapper herunder*/
+  .flexInstrumenter {
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    flex-direction: column;
+  }
+
+  .flexGuitar,
+  .flexElguitar,
+  .flexBas,
+  .flexUkelele,
+  .flexMandolin {
+    padding: 10px;
+    border: black 4px dotted;
+    font-size: 25px;
+    border-radius: 100%;
+    padding-top: 37.5%;
+    padding-bottom: 37.5%;
+    margin-bottom: 12%;
+    flex: 10%;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+
+  .flexGuitar:hover,
+  .flexElguitar:hover,
+  .flexBas:hover,
+  .flexUkelele:hover,
+  .flexMandolin:hover {
+    background-color: rgb(200, 200, 200);
+  }
+
+  /* Alt herover er de 5 runder knapper */
+
+  /* Alt herunder er sektionen med videoer */
+
+  .videoerSektion {
+    background-color: rgb(199, 199, 199);
+    padding-bottom: 4%;
+    padding-top: 2%;
+  }
+
+  .videoerSektionVideoer {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  #video1, #video2, #video3 {
+    padding: 0.5rem;
+    width: 90%;
+  }
+
+  #video2, #video3 { 
+    display: none;
+  }
+
+
+
+
+  .mereKnap {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  /* Alt herover er sektionen med videoer */
+
+
+
+}

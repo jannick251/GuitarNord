@@ -1,12 +1,39 @@
+.forsideBillede {
+    width: 100%;
+    opacity: 55%;
+  }
+
 .holdElementer {
     padding-top: 2%;
-    padding-left: 12%;
-    padding-right: 12%;
+    padding-left: 15%;
+    padding-right: 15%;
     padding-bottom: 2%;
-    background-color: rgb(160, 160, 160);
+    background-color: rgb(236, 236, 236);
     display: flex;
     flex-direction: row;
     gap: 4%;
+}
+
+.overskriftUndervisning {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.sektionIntro {
+    padding: 1% 15%;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    gap: 7%;
+}
+
+.sektionVenstre{
+    width: 45%;
+} 
+.sektionRight {
+    width: 45%;
+    
 }
 
 .holdElement {
@@ -17,16 +44,17 @@
 
 .holdNavn {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .holdTid {
-    font-size: 16px;
+    font-size: 20px;
     margin-block-start: .5em;
     margin-block-end: .5em;
 }
 
 .holdInfo {
+    font-size: 18px;
     margin-block-start: .5em;
     margin-block-end: .5em;
 }
@@ -56,7 +84,6 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
- justify-content: center;
 }
 
 .tilmeldHoldKnapTekst {
@@ -64,4 +91,47 @@
     text-decoration: none;
 }
 
+.knapTilmeldU {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.fandtIkke {
+    font-size: 30px;
+  text-align: center;
+  margin-block-end: 0em;
+  padding-top: 3rem;
+}
+
+.kontaktSammen {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(4, 182, 206);
+    margin-block-start: 0em;
+}
+
+
+.tilmeldHoldKnapUndervisning{
+    background-color: rgb(4, 182, 206);
+    color: white;
+    padding: 8px 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   justify-content: center;
+}
+
+.tilmeldHoldKnapTekst {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
+.tilbageTilTop {
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 2%;
+    color: gray;
+    cursor: pointer;
+}
 

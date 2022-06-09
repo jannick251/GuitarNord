@@ -52,3 +52,13 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+
+/* Tilbage til toppen knap */
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+
+

@@ -1,0 +1,33 @@
+const searchHtml = document.querySelector("[data-html]")
+searchHtml.addEventListener('click', showDropdown);
+
+function showDropdown (e) {
+  let currentDropdown;
+  let hideDropdownBool = true
+    if (e.target.matches("[data-dropdown-button]"))
+      currentDropdown = toggleActiveDropdown(e, "[data-dropdown]");
+    else if (e.target.matches('[data-dropdown-button2]')) {
+      toggleActiveDropdown(e, "[data-dropdown2]");
+      hideDropdownBool = false;
+    }
+    else return
+
+    if (hideDropdownBool === true) 
+      hideDropdown(currentDropdown);
+}
+
+function toggleActiveDropdown (e, dropdown) {
+  let currentDropdown = e.target.closest(dropdown)
+  currentDropdown.classList.toggle('active')
+  return currentDropdown;
+}
+
+// hides selected dropdown by removing the active property from classlist.
+function hideDropdown (currentDropdown) {
+    document.querySelectorAll("[data-dropdown].active").forEach(dropdown => {
+      if (dropdown === currentDropdown) 
+      return
+  
+      dropdown.classList.remove('active')
+    })
+}

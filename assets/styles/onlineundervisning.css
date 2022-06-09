@@ -100,6 +100,8 @@ html {
 
 .panel {
     display: none;
+    overflow: hidden;
+    height: 0;
 }
 
 i {

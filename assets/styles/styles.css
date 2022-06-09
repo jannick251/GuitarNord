@@ -8,8 +8,9 @@ body {
 :root {
     --white: #fff;
     --black: #000;
-    --lightGrey: #bebebe;
+    --lightGrey: #f0eaea;
     --grey: #949494;
     --darkGrey: #545454;
+    --aqua: rgb(15, 244, 244);
 }
 

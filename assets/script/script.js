@@ -9,7 +9,7 @@ function emailTak() {
 
 
 // ---DropdownMenu start---
-// Lytter efter klik på dropdownMenu i dokumentet, klikker vi inden i eller uden for en dropdownMenu
+// Lytter efter klik på dropdownMenu i dokumentet, og lytter efter om der klikkes inden i eller, uden for en dropdownMenu
 document.addEventListener('click', e => {
   const isDropdownButton = e.target.matches("[data-dropdown-button]")
   if (!isDropdownButton && e.target.closest('[data-dropdown]') != null)
@@ -32,3 +32,23 @@ document.addEventListener('click', e => {
   })
 })
 // ---DropdownMenu slut---
+
+
+
+
+// ---acc start---
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+// Gør det muligt at skifte imellem active og ikke active, så den kan folde sig ud, og folde sig sammen igen
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var panel = this.nextElementSibling;
+  if (panel.style.display === "block") {
+    panel.style.display = "none";
+    } else {
+    panel.style.display = "block";
+    }
+  });
+}

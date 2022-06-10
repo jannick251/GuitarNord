@@ -7,7 +7,18 @@
 
 .overskriftOUTekst {
     margin-block-end: 0em;
+}
 
+.sektionOmUnderviserenUnderoverskrift {
+    margin-block-end: 0em;
+}
+
+.sektionOmUnderviserenTekst {
+    margin-block-start: 0.5em;
+}
+
+.imgBilledeTop {
+    display: none;
 }
 
 .sektionOmUnderviseren, .sektionOmUndBilledeCitat {
@@ -108,4 +119,99 @@
     padding-bottom: 2%;
     color: gray;
     cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    .overskriftOmUnderviseren {
+        font-size: 30px;
+    }
+    
+    .overskriftOUTekst {
+        margin-block-end: 0em;
+        padding-bottom: 5%;
+    }
+    
+    .sektionOmUnderviseren, .sektionOmUndBilledeCitat {
+        flex-direction: column;
+        font-size: larger;
+    }
+
+    .sektionOmUnderviserenUnderoverskrift {
+        font-size: 22px;
+        margin-block-end: 0em;
+    }
+
+    .sektionOmUnderviserenTekst {
+        margin-block-start: 0.3em;
+    }
+
+    #video2 {
+        display: flex;
+        width: auto;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-bottom: 9%;
+    }    
+    
+    .sektionOmUndBilledeCitat, .citatTekst {
+        display: flex;
+        flex-direction: row;
+        padding: 2% 15%;
+        gap: 4%;
+    }
+
+    .sektionOmUndBilledeCitat {
+        padding: 0px;
+    }
+
+    .imgBilledeTop {
+        display: flex;
+        width: 100%;
+    }
+
+    .citatTekst {
+        text-align: center;
+        font-size: 22px;
+        padding-bottom: 5%;
+    }
+    .imgBillede {
+        display: none;
+    }
+
+    .overskrifterForside {
+        font-size: 30px;
+    }
+    .underoverskriftForside {
+        font-size: 24px;
+        padding-left: 15%;
+        padding-right: 15%;
+        margin-block-end: 0em;
+        
+    }
+
+    .kontaktSammen {
+        font-size: 24px;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .knapTilmeldU {
+        padding-bottom: 4%;
+    }
+
+    .fandtIkke {
+        margin-block-start: 0em;
+    }
+    
+    .kontaktSammen {
+        margin-block-end: 1em;
+    }
+
+    .tilbageTilTop {
+        padding-bottom: 2em;
+    }
+
+    
 }

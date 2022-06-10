@@ -199,9 +199,14 @@
         flex-direction: column;
     }
 
+    .hvordanBliverBedre {
+        padding: 15%;
+    }
+
     .billedeHvordan{
-        width: 100%;
+        width:100%;
         padding-top: 5%;
+        padding-left: 0%;
     }
 
     .underOverBedre {

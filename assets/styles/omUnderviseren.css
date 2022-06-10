@@ -1,0 +1,111 @@
+.overskriftOmUnderviseren {
+    font-size: 50px;
+    padding-top: 1%;
+    text-align: center;
+    margin-block-end: 0em;
+}
+
+.overskriftOUTekst {
+    margin-block-end: 0em;
+
+}
+
+.sektionOmUnderviseren, .sektionOmUndBilledeCitat {
+    display: flex;
+    flex-direction: row;
+    padding: 1% 15%;
+    gap: 4%;
+    font-size: large;
+}
+
+
+.sektionOmUndBilledeCitat, .citatTekst {
+    display: flex;
+    flex-direction: row;
+    padding: 1% 15%;
+    gap: 4%;
+}
+
+
+.articleBillede {
+    width: auto;
+}
+
+.imgBillede {
+    width: 90%;
+}
+
+.citatTekst {
+    font-size: 30px;
+    width: auto;
+    text-align: center;
+    padding-top: 10%;
+    padding-right: 10%;
+}
+
+.citatTekstText {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-style: italic; 
+}
+
+
+
+
+
+.tilmeldHoldKnap {
+    background-color: rgb(59, 59, 59);
+  color: white;
+  padding: 8px 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tilmeldHoldKnapTekst {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.knapTilmeldU {
+    text-align: center;
+    padding-bottom: 0%;
+}
+
+.fandtIkke {
+    font-size: 30px;
+  text-align: center;
+  margin-block-end: 0em;
+  padding-top: 3rem;
+}
+
+.kontaktSammen {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(4, 182, 206);
+    margin-block-start: 0em;
+}
+
+
+.tilmeldHoldKnapUndervisning{
+    background-color: rgb(4, 182, 206);
+    color: white;
+    padding: 8px 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   justify-content: center;
+}
+
+.tilmeldHoldKnapTekst {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.tilbageTilTop {
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 2%;
+    color: gray;
+    cursor: pointer;
+}

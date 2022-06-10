@@ -58,12 +58,18 @@ button:hover {
     width: 70%;
     font-size: 4vw;
     margin-top: -2%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+
+.logoImage {
+    height: 5vw;
 }
 
 .faqKontaktContainer {
     display: flex;
     justify-content: space-evenly;
-    height: 100%;
+    height: 60%;
     width: 30%;
 }
 
@@ -106,6 +112,7 @@ nav>* {
     padding: 0% 2% 0 2%;
     font-size: 1vw;
     margin-left: 2%;
+    list-style: none;
 }
 
 nav>*:hover {
@@ -147,19 +154,25 @@ nav>*:hover {
     pointer-events: none;
     transform: translateY(-20px);
     transition: opacity 200ms ease-in-out, transform 250ms ease-in-out;
+    padding: .2vw .2vw;
+    font-size: 1vw;
 }
 
-.dropdownMenu1>a {
+.dropdownMenu1>li {
+    list-style: none;
+}
+
+.dropdownMenu1>li>a {
     width: 100%;
     font-size: inherit;
-    padding: 2% 5% 2% 5%;
+    padding: .3vw .4vw .3vw .4vw;
     display: flex;
 }
 
-.dropdownMenu1>a:hover {
+.dropdownMenu1>li>a:hover {
     width: 100%;
     font-size: inherit;
-    padding: 5% 5% 5% 5%;
+    padding: .4vw .4vw .4vw .4vw;
     background-color: var(--darkGrey);
 
 }
@@ -171,7 +184,7 @@ nav>*:hover {
 }
 
 .dropdownMenu2 {
-    height: 10vw;
+    height: auto;
     width: 128%;
     position: absolute;
     left: 15%;
@@ -184,19 +197,23 @@ nav>*:hover {
     pointer-events: none;
     transform: translateY(-20px);
     transition: opacity 200ms ease-in-out, transform 250ms ease-in-out;
+    padding: .2vw .2vw;
 }
 
-.dropdownMenu2>a {
+.dropdownMenu2>li>a {
     width: 100%;
-    font-size: inherit;
-    padding: 2% 5% 2% 5%;
+    font-size: 1vw;
+    padding: .3vw .4vw .3vw .4vw;
     display: flex;
 }
 
-.dropdownMenu2>a:hover {
+.dropdownMenu2>li {
+    list-style: none;
+}
+
+.dropdownMenu2>li>a:hover {
     width: 100%;
-    font-size: inherit;
-    padding: 5% 5% 5% 5%;
+    padding: .4vw .4vw .4vw .4vw;
     background-color: var(--darkGrey);
 }
 
@@ -207,7 +224,7 @@ nav>*:hover {
 }
 
 .dropdownMenu3 {
-    height: 5vw;
+    height: auto;
     width: 88%;
     position: absolute;
     left: 15%;
@@ -222,17 +239,21 @@ nav>*:hover {
     transition: opacity 200ms ease-in-out, transform 250ms ease-in-out;
 }
 
-.dropdownMenu3>a {
+.dropdownMenu3>li>a {
     width: 100%;
     font-size: inherit;
-    padding: 2% 5% 2% 5%;
+    padding: .3vw .4vw .3vw .4vw;
     display: flex;
 }
 
-.dropdownMenu3>a:hover {
+.dropdownMenu3>li {
+    list-style: none;
+}
+
+.dropdownMenu3>li>a:hover {
     width: 100%;
     font-size: inherit;
-    padding: 5% 5% 5% 5%;
+    padding: .4vw .4vw .4vw .4vw;
     background-color: var(--darkGrey);
 }
 
@@ -245,7 +266,7 @@ nav>*:hover {
 .dropdownMenu3>button {
     width: 100%;
     font-size: inherit;
-    padding: 2% 5% 2% 5%;
+    padding: .3vw .4vw .3vw .4vw;
     display: flex;
 }
 
@@ -253,26 +274,26 @@ nav>*:hover {
     width: 100%;
     font-size: inherit;
     color: var(--white);
-    padding: 5% 5% 5% 5%;
+    padding: .4vw .4vw .4vw .4vw;
     background-color: var(--darkGrey);
 }
 
 .dropdownUnderMenu3 {
-    height: 10.2vw;
-    width: 112%;
+    height: auto;
+    width: 88%;
     position: absolute;
     left: 100%;
-    top: calc(100% - 60%);
+    top: calc(100% - 65%);
     color: var(--black);
     background-color: var(--lightGrey);
-    padding: 0 25% 50% 0;
     border-radius: 2px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
-    opacity: .5;
+    opacity: 0;
     pointer-events: none;
     transform: translateY(-20px);
     transition: opacity 200ms ease-in-out, transform 250ms ease-in-out;
-    font-size: 1vw;
+    display: flex;
+    flex-direction: column;
 }
 
 .dropdown.active>.dropdownKnap+.dropdownUnderMenu3 {
@@ -284,26 +305,30 @@ nav>*:hover {
 .instrumentøvelserKnap {
     background-color: var(--lightGrey);
     color: inherit;
-    padding: 5% 5% 0 5%;
+    padding: .4vw .4vw .4vw .4vw;
 }
 
 .instrumentøvelserKnap:hover {
     width: 100%;
-    padding: 5% 5% 5% 5%;
+    padding: .4vw .4vw .4vw .4vw;
     background-color: var(--darkGrey);
     color: var(--white);
 }
 
-.dropdownUnderMenu3>a {
+.dropdownUnderMenu3>li {
+    list-style: none;
+}
+
+.dropdownUnderMenu3>li>a {
     width: 100%;
     font-size: inherit;
-    padding: 2% 5% 2% 5%;
+    padding: .3vw .4vw .3vw .4vw;
     display: flex;
 }
 
-.dropdownUnderMenu3>a:hover {
+.dropdownUnderMenu3>li>a:hover {
     width: 100%;
-    padding: 5% 5% 5% 5%;
+    padding: .4vw .4vw .4vw .4vw;
     background-color: var(--darkGrey);
 }
 
@@ -328,7 +353,7 @@ nav>*:hover {
 .dropdownMenu4>a {
     width: 100%;
     font-size: inherit;
-    padding: 2% 5% 2% 5%;
+    padding: .3vw .4vw .3vw .4vw;
     display: flex;
 }
 
@@ -489,7 +514,7 @@ nav>*:hover {
         width: 40vw;
         position: fixed;
         background-color: var(--lightGrey);
-        opacity: 1;
+        opacity: 0;
         margin-top: 5.4vw;
         font-size: 2.5vw;
         display: flex;
@@ -498,19 +523,19 @@ nav>*:hover {
     }
 
     .dropdown.active>.dropdownKnap+.dropdownBurgerMenu {
-        opacity: 1;
+        opacity: .8;
         transform: translateY(-10px);
         pointer-events: auto;
     }
 
-    .dropdownBurgerMenu > li {
+    .dropdownBurgerMenu>li {
         display: flex;
         padding: 10% 20%;
         color: var(--black);
         /* opacity: 1; */
     }
 
-    .dropdownBurgerMenu > li > a {
+    .dropdownBurgerMenu>li>a {
         font-size: inherit;
     }
 

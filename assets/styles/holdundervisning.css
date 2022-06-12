@@ -11,7 +11,7 @@
     padding-left: 15%;
     padding-right: 15%;
     padding-bottom: 2%;
-    background-color: rgb(236, 236, 236);
+    background-color: var(--white);
     display: flex;
     flex-direction: row;
     gap: 4%;
@@ -40,13 +40,14 @@
 
 .holdElement {
     padding: 2%;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--darkGrey);
     width: 100%;
+    color: var(--white);
 }
 
 .holdElementPaaVej {
     padding: 2%;
-    background-color: rgb(192, 192, 192);
+    background-color: var(--lightGrey);
     width: 100%;
 }
 
@@ -73,7 +74,7 @@
 }
 
 .prisPrLektion {
-    color: rgb(4, 182, 206);
+    color: var(--aqua);
     text-transform: uppercase;
     font-size: 18px;
     margin-block-end: .1em;
@@ -86,7 +87,7 @@
 }
 
 .tilmeldHoldKnap {
-    background-color: rgb(4, 182, 206);
+    background-color: var(--aqua);
   color: white;
   padding: 8px 50px;
   border: none;
@@ -95,8 +96,9 @@
 }
 
 .tilmeldHoldKnapTekst {
-    color: rgb(255, 255, 255);
+    color: var(--white);
     text-decoration: none;
+    font-family: 'Oswald';
 }
 
 .knapTilmeldU {

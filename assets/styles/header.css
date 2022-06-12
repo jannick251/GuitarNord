@@ -13,10 +13,9 @@ html {
 header {
     height: 16vw;
     width: auto;
-    background-color: var(--lightGrey);
+    background-color: var(--white);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     color: var(--white);
 }
 
@@ -41,25 +40,26 @@ button:hover {
 }
 
 .logoFaqKontaktContainer {
-    height: auto;
+    height: 4vw;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 4% 5% 0 5%;
+    padding: 2.2% 5% 0 5%;
 }
 
 .logo {
+    display: flex;
+    align-items: center;
     height: 100%;
     width: 70%;
-    font-size: 3vw;
-    margin-top: -2%;
+    font-size: 2.5vw;
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
 }
 
 .logoImage {
-    height: 3vw;
+    height: 2.2vw;
 }
 
 .faqKontaktContainer {
@@ -73,14 +73,14 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 2.5vw;
-    width: 12vw;
+    height: 2vw;
+    width: 8vw;
     padding: 0 2vw 0 2vw;
-    border: 1px var(--darkGrey) solid;
     background-color: var(--darkGrey);
     border-style: none;
     border-radius: 5px;
     font-family: "Oswald", sans-serif;
+    font-size: 1.3vw;
     color: var(--white);
 }
 
@@ -88,8 +88,8 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 2.5vw;
-    width: 12vw;
+    height: 2vw;
+    width: 8vw;
     padding: 0 2vw 0 2vw;
     border: 1px var(--darkGrey) solid;
     background-color: var(--aqua);
@@ -97,17 +97,17 @@ button:hover {
     border-style: none;
     border-radius: 5px;
     font-family: "Oswald", sans-serif;
-    margin-left: 2vw;
+    font-size: 1.3vw;
 }
 
 nav {
-    height: 30%;
+    height: 25%;
     width: 100%;
     background-color: var(--darkGrey);
     align-self: flex-end;
     display: flex;
     align-items: center;
-    margin-top: 2%;
+    margin-top: 2.5vw;
 }
 
 nav>* {
@@ -425,6 +425,7 @@ nav>*:hover {
     letter-spacing: .4vw;
     word-spacing: .8vw;
     font-family: "Oswald";
+    /* margin-bottom: 2vw; */
 }
 
 .tilmeldDigCTA:hover {

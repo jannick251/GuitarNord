@@ -37,7 +37,13 @@
 
 .holdElement {
     padding: 2%;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.holdElementPaaVej {
+    padding: 2%;
+    background-color: rgb(192, 192, 192);
     width: 100%;
 }
 
@@ -77,7 +83,7 @@
 }
 
 .tilmeldHoldKnap {
-    background-color: rgb(59, 59, 59);
+    background-color: rgb(4, 182, 206);
   color: white;
   padding: 8px 50px;
   border: none;

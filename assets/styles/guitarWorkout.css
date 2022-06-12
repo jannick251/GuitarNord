@@ -1,0 +1,222 @@
+.overskriftOmUnderviseren {
+    font-size: 50px;
+    padding-top: 1%;
+    text-align: center;
+    margin-block-end: 0em;
+}
+
+.imgBilledeTop {
+    display: none;
+}
+
+.overskriftOUTekst {
+    margin-block-end: 0em;
+}
+
+.sektionOmUnderviserenUnderoverskrift {
+    margin-block-end: 0em;
+}
+
+.sektionOmUnderviserenTekst {
+    margin-block-start: 0.5em;
+}
+
+.sektionOmUnderviseren, .sektionOmUndBilledeCitat {
+    display: flex;
+    flex-direction: row;
+    padding: 1% 15%;
+    gap: 15%;
+    font-size: large;
+}
+
+
+.ovelseSektion {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    padding: 2% 15%;
+    font-size: 18;
+}
+
+.videoerSektionTekst {
+    padding-left: 15%;
+}
+
+.overskriftVST {
+    font-size: 32px;
+    margin-block-start: 0px;
+    margin-block-end: 20px;
+}
+
+.underOVST {
+    font-size: 22px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.tekstOCST {
+    font-size: 18px;
+    margin-block-start: 0px;
+}
+
+.overskriftVST {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.ovelse {
+    text-align: center;
+}
+
+.flereOvelser{
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+}
+
+.hvordanBedre {
+    display: flex;
+    flex-direction: row;
+    padding: 2% 10%;
+    font-size: 18;
+}
+
+.hvordanBliverBedre {
+    padding-left: 10%;
+    padding-right: 15%;
+}
+
+.overskriftBedre {
+    font-size: 26px;
+}
+
+.underOverBedre {
+    font-size: 20px;
+}
+
+.tilmeldHoldKnapTekst {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.knapTilmeldU {
+    text-align: center;
+    padding-bottom: 0%;
+}
+
+.tilmeldHoldKnapUndervisning{
+    background-color: rgb(4, 182, 206);
+    color: white;
+    padding: 8px 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   justify-content: center;
+}
+
+.tilbageTilTop {
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 2%;
+    color: gray;
+    cursor: pointer;
+    padding-top: 5%;
+}
+
+.hvordanBliverBedre {
+    padding-left: 40%;
+}
+
+.billedeHvordan {
+    width: 180%;
+    padding-left: 35%;
+}
+
+@media only screen and (max-width: 480px) {
+    .sektionOmUnderviseren, .sektionOmUndBilledeCitat {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sektionOmUnderviserenUnderoverskrift {
+        font-size: 25px;
+    }
+
+    .sektionOmUnderviserenTekst {
+        font-size: 22px;
+    }
+
+    .overskriftOmUnderviseren {
+        font-size: 30px;
+        padding-top: 1%;
+        padding-left: 15%;
+        padding-right: 15%;
+        text-align: center;
+        margin-block-end: 0em;
+    }
+
+    .ovelseSektion {
+        background-color: lightgray;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #video1, #video2, #video3, #video4 {
+        padding-top: 10%;
+        width: auto;
+        height: 250px;
+    }
+
+    .ovelse {
+        width: 400px;
+    }
+
+    .ovelseBillede {
+        width: 400px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .imgBilledeTop {
+        display: flex;
+        width: 100%;
+        padding-top: 5%;
+    }
+
+    .videoerSektionTekst {
+        padding: 0px;
+    }
+
+    .tekstOCST {
+        font-size: 20px;
+    }
+
+    .hvordanBedre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hvordanBliverBedre {
+        padding: 15%;
+    }
+
+    .billedeHvordan{
+        width:100%;
+        padding-top: 5%;
+        padding-left: 0%;
+    }
+
+    .underOverBedre {
+        font-size: 24px;
+        margin-block-end: 0px;
+    }
+
+    .tekstBedre {
+        font-size: 20px;
+    }
+
+    
+}

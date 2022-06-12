@@ -1,0 +1,141 @@
+.accordionsFAQ {
+  padding: 1% 25%;
+
+}
+
+.faqOverskrift {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 2%;
+}
+
+.accordion {
+  background-color: #F5F5F5;
+  margin-block-end: 0.4%;
+  color: var(--black);
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 22px;
+  padding: 3%;
+  padding-left: 5%;
+  
+}
+
+.active,
+.accordion:hover {
+  background-color: #F5F5F5;
+}
+
+
+/* "Content": \002B er '+' sourcekoden til åben og luk funktionen */
+.accordion:after {
+  content: '\002B';
+  float: right;
+  margin-left: 5px;
+}
+
+
+.accTekst {
+  font-size: 18px;
+  padding-top: 1%;
+  margin-block-start: 0em;
+  margin-block-end: 0.7em;
+}
+
+.accTekstAdr {
+  font-weight: bold;
+  font-size: 16px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  font-style: italic;
+  padding-bottom: 1%;
+}
+
+  /* "Content": \2212 er '-' sourcekoden til åben og luk funktionen */
+.active:after {
+  content: "\2212";
+}
+
+/* Transitionen heruder gør at menuen folder sig langsommere ud*/
+.panel {
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #FDFDFD;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.2s ease-out;
+}
+
+
+.fandtIkke {
+  font-size: 30px;
+text-align: center;
+margin-block-end: 0em;
+padding-top: 3rem;
+}
+
+.kontaktSammen {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(4, 182, 206);
+  margin-block-start: 0em;
+}
+
+.knapTilmeldU {
+  text-align: center;
+  padding-bottom: 0%;
+}
+
+.tilmeldHoldKnapUndervisning{
+  background-color: rgb(4, 182, 206);
+  color: white;
+  padding: 8px 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ justify-content: center;
+}
+
+.tilmeldHoldKnapTekst {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.tilbageTilTop {
+  text-decoration: none;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  color: gray;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .accordionsFAQ {
+    padding: 1% 8%;
+  }
+  .accordion {
+    font-size: 18px;
+  } 
+  .accTekst {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 20px;
+  }
+  
+  .accTekstAdr {
+    text-align: center;
+    padding-bottom: 2%;
+  }
+
+  .kontaktSammen {
+   padding-left: 8%;
+   padding-right: 8%;
+   margin-block-start: 0px;
+  }
+
+}

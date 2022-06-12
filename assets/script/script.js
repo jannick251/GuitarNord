@@ -50,8 +50,8 @@ function hideDropdown(currentDropdown) {
 
 
 // ---acc start---
-var acc = document.getElementsByClassName("accordion");
-var i;
+// var acc = document.getElementsByClassName("accordion");
+// var i;
 
 // Gør det muligt at skifte imellem active og ikke active, så den kan folde sig ud, og folde sig sammen igen
 // for (i = 0; i < acc.length; i++) {

@@ -5,12 +5,7 @@
 }
 
 html {
-    color: var(--white);
     font-size: 16px;
-}
-
-body {
-    background-color: white;
 }
 
 
@@ -22,6 +17,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color: var(--white);
 }
 
 a {

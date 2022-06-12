@@ -418,18 +418,17 @@ nav>*:hover {
     justify-content: center;
     align-items: center;
     width: auto;
-    height: 3vw;
+    height: 2vw;
     background-color: var(--aqua);
     font-size: 1.2vw;
     font-weight: bold;
-    letter-spacing: .4vw;
-    word-spacing: .8vw;
+
     font-family: "Oswald";
     /* margin-bottom: 2vw; */
 }
 
 .tilmeldDigCTA:hover {
-    color: var(--darkGrey);
+    color: var(--white);
 }
 
 

@@ -25,19 +25,12 @@
 
   .emptySpace{
     height: 13vw;
-
   }
   
   
   @media only screen and (max-width: 480px) {
-    .workout {
-      width: auto;
-      padding-left: 0%;
-      padding-right: 0%;
-    }
     .emptySpace{
       height: 3vw;
-      
     }
   .h1Workout {
     padding: 0;

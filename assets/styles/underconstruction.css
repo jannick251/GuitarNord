@@ -17,7 +17,7 @@
 
 
 /* Herunder er tilmeld dig nyhedsbrev sektionen */
-.nyhedsbrev {
+.nyhedsbrev2 {
     flex: auto;
     flex-direction: row;
     text-align: center;
@@ -26,19 +26,19 @@
     padding-top: 0.2%;
 }
 
-.tilmeldTekst {
+.tilmeldTekst2 {
     margin-block-end: 0em;
 
 }
 
-.flexTilmeld {
+.flexTilmeld2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding-bottom: 0.4%;
 }
 
-#indtastEmail {
+#indtastEmail2 {
     border-radius: 10px;
     border: none;
     height: 28px;
@@ -47,16 +47,16 @@
     padding-right: 3%;  
 }
 
-.emailBoks {
+.emailBoks2 {
     padding-top: 12px;
 }
 
-.flyerFigur {
+.flyerFigur2 {
     padding-top: 15px;
     padding-left: 0.5%;
 }
 
-.indtastIkon {
+.indtastIkon2 {
     height: 20px;
     padding-bottom: 20px;
 }

@@ -538,7 +538,7 @@ nav>*:hover {
         position: absolute;
         right: 9vw;
         list-style: none;
-        height: 100vw;
+        height: 103vw;
         width: 100%;
         background-color: var(--lightGrey);
         opacity: 0;
@@ -612,10 +612,11 @@ nav>*:hover {
         font-size: 2vw;
         font-weight: bold;
         margin-top: 2vw;
+        font-family: "Oswald", sans-serif;
     }
 
     .underMenu {
-        font-size: 1.5vw;
+        font-size: 1.8vw;
         margin-top: 2vw;
         font-weight: bold;
         list-style: none;
@@ -623,6 +624,7 @@ nav>*:hover {
 
     .underMenu > a {
         margin-left: 2vw;
+        font-family: sans-serif;
     }
 
 }

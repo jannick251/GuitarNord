@@ -21,6 +21,11 @@
     justify-content: center;
     align-items: center;
   }
+
+  .emptySpace{
+    height: 13vw;
+
+  }
   
   
   @media only screen and (max-width: 480px) {
@@ -28,6 +33,10 @@
       width: auto;
       padding-left: 0%;
       padding-right: 0%;
+    }
+    .emptySpace{
+      height: 3vw;
+      
     }
   
     h1 {

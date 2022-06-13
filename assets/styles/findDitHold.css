@@ -10,7 +10,7 @@ h1 {
     width: 100%;
     border: none;
     background-color: var(--aqua);
-    color: white;
+    color: var(--white);
     padding-top: 3%;
     padding-bottom: 3%;
     font-size: 40px;
@@ -22,8 +22,8 @@ h1 {
   }
   
   .knapTilHold:hover {
-    background-color: rgb(212, 212, 212);
-    color: black;
+    background-color: var(--grey);
+    color: var(--black);
   }
 
 

@@ -1,0 +1,39 @@
+
+  .h1Workout {
+    text-align: center;
+    color: var(--black);
+    font-family: 'Oswald';
+    font-size: 3rem;
+  }
+  .aWorkout {
+    text-decoration: none;
+    color: inherit;
+    color: var(--lightGrey);
+    font-family: 'Oswald';
+  }
+  .workout {
+    background-image: url("/assets/images/elguitar-skaleret.png");
+    height: 13vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  @media only screen and (max-width: 480px) {
+    .workout {
+      width: auto;
+      padding-left: 0%;
+      padding-right: 0%;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+  }

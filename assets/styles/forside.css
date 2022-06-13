@@ -54,7 +54,7 @@
 }
 
 .flexSektionOmForsideKnap {
-  background-color: rgb(4, 182, 206);
+  background-color: var(--aqua);
   border: none;
   border-radius: 12%;
   padding: 0.3rem 2.5rem 0.3rem 2.5rem;
@@ -64,7 +64,7 @@
 }
 
 .flexSektionOmForsideKnapIndhold {
-  color: rgb(255, 255, 255);
+  color: var(--white);
   text-decoration: none;
 }
 
@@ -87,7 +87,7 @@
 .underoverskriftForside {
   font-size: 20px;
   text-align: center;
-  color: rgb(4, 182, 206);
+  color: var(--aqua);
   margin-block-start: 0em;
 }
 
@@ -111,7 +111,7 @@
 .flexUkelele,
 .flexMandolin {
   padding: 10px;
-  border: black 4px dotted;
+  border: var(--black) 4px dotted;
   font-size: 25px;
   border-radius: 100%;
   padding-top: 9.5%;
@@ -120,7 +120,7 @@
   flex: 10%;
   cursor: pointer;
   text-decoration: none;
-  color: black;
+  color: var(--black);
 }
 
 .flexGuitar:hover,
@@ -128,7 +128,7 @@
 .flexBas:hover,
 .flexUkelele:hover,
 .flexMandolin:hover {
-  background-color: rgb(200, 200, 200);
+  background-color: var(--grey);
 }
 
 /* Alt herover er de 5 runder knapper */
@@ -136,7 +136,7 @@
 /* Alt herunder er sektionen med videoer */
 
 .videoerSektion {
-  background-color: rgb(199, 199, 199);
+  background-color: var(--lightGrey);
   padding-bottom: 4%;
 }
 
@@ -249,7 +249,7 @@
   }
 
   .flexSektionOmForsideKnapIndhold {
-    color: rgb(255, 255, 255);
+    color: var(--white);
     text-decoration: none;
   }
 
@@ -268,7 +268,7 @@
   .underoverskriftForside {
     font-size: 16px;
     text-align: center;
-    color: rgb(4, 182, 206);
+    color: var(--aqua);
     margin-block-start: 0em;
     padding-left: 2%;
     padding-right: 2%;
@@ -293,17 +293,10 @@
   .flexBas,
   .flexUkelele,
   .flexMandolin {
-    padding: 10px;
-    border: black 4px dotted;
-    font-size: 25px;
-    border-radius: 100%;
     padding-top: 37.5%;
     padding-bottom: 37.5%;
     margin-bottom: 12%;
     flex: 10%;
-    cursor: pointer;
-    text-decoration: none;
-    color: black;
   }
 
   .flexGuitar:hover,
@@ -311,7 +304,7 @@
   .flexBas:hover,
   .flexUkelele:hover,
   .flexMandolin:hover {
-    background-color: rgb(200, 200, 200);
+    background-color: var(--white);
   }
 
   /* Alt herover er de 5 runder knapper */
@@ -319,7 +312,7 @@
   /* Alt herunder er sektionen med videoer */
 
   .videoerSektion {
-    background-color: rgb(199, 199, 199);
+    background-color: var(--lightGrey);
     padding-bottom: 4%;
     padding-top: 2%;
   }

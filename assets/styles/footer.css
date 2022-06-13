@@ -1,7 +1,9 @@
 
+
+
 footer{
     width: auto;
-    background-color: var(--lightGrey);
+    background-color: var(--grey);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -9,16 +11,17 @@ footer{
 
 /* Følgende er nyhedsbrevsektionen*/
 .nyhedsbrev {
-    background-color: rgb(170, 170, 170);
+    background-color: var(--darkergrey);
     display: flex;
     width: auto;
-    padding-top: 1%;
+    padding-top: 0.5%;
 }
 
 .tilmeld {
-    color: white;
+    color: var(--white);
     padding-left: 15%;
-    padding-right: 20%;
+    padding-right: 30%;
+    padding-bottom: 0.5%;
 }
 
 #indtastEmail {
@@ -46,30 +49,34 @@ footer{
 /*Footer*/
 /*Knapper i footer, alle elementer*/
 .footerKnapper {
+    justify-content: center;
     text-align: center;
+    display: flex;
+    flex-direction: row;
     padding-top: 10px;
-    background-color: gray;
+    background-color: var(--darkGrey);
 }
 
 /*Knapper i footer, enkelte elementer*/
 .footerKnap {
     padding: 6px 30px 6px 30px;
-    background-color: gray;
+    background-color: var(--darkGrey);
     border-radius: 5px;
     border: white 1px solid;
     font-size: 14px;
     margin: 20px;
     color: white;
     cursor: pointer;
+    text-decoration: none;
 }
 
 /*Knapper i footer, hover*/
 .footerKnap:hover {
-    background-color: rgb(200, 200, 200);
+    background-color: var(--grey);
 }
 
 .adresseYT {
-    background-color: gray;
+    background-color: var(--darkGrey);
     display: flex;
     padding-left: 15%;
     padding-bottom: 5%;
@@ -77,29 +84,28 @@ footer{
 
 .adresseBoks {
     justify-content: left;
-    color: white;
+    color: var(--white);
 }
 
 .ytLogoBox {
     justify-content: right;
     padding-top: 70px;
-    padding-left: 24%;
+    padding-left: 29.5%;
     padding-top: 5.5%;
 }
 
 .ytLogo {
     height: 30px;
     border-radius: 532px;
-    border: white 1px solid;
+    border: var(--white) 1px solid;
     padding: 5px;
     cursor: pointer;
 }
 
 .afsluttendeText {
     text-align: center;
-    background-color: gray;
-    color: white;
-    padding-left: 27.5%;
+    color: var(--white);
+    padding-left: 31%;
     height: 200px;
 }
 
@@ -113,6 +119,26 @@ footer{
     font-size: 20px;
 }
 
+
+.tilmeldHoldKnapTekst {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.knapTilmeldU {
+    text-align: center;
+    padding-bottom: 0%;
+}
+
+.tilmeldHoldKnapUndervisning{
+    background-color: var(--aqua);
+    color: var(--white);
+    padding: 8px 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   justify-content: center;
+}
 
 
 
@@ -161,18 +187,20 @@ footer{
 
 /*Footer*/
 /*Knapper i footer, alle elementer*/
+
+
 .footerKnapper {
-    padding-top: 10px;
-    background-color: gray;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 /*Knapper i footer, enkelte elementer*/
 .footerKnap {
     padding: 6px 50px 6px 50px;
-    width: 170px;
+    width: auto;
     text-align: center;
+    text-decoration: none;
 }
 
 .adresseYT {
@@ -214,9 +242,11 @@ footer{
     font-size: 30px;
     padding-top: 5%;
     height: 20px;
+    margin-block-end: 0.5em;
 }
 
 .footerKontaktOverskrift {
     font-size: 30px;
+    margin-block-end: 0.5em;
 }
   }

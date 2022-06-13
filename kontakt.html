@@ -1,10 +1,11 @@
-<html lang="en">
+<html lang="en" data-html>
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt</title>
+    <link rel="stylesheet" href="./assets/styles/header.css">
     <link rel="stylesheet" href="./assets/styles/footer.css">
     <link rel="stylesheet" href="./assets/styles/styles.css">
     <link rel="stylesheet" href="./assets/styles/kontakt.css">
@@ -16,75 +17,301 @@
     <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
         integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
         crossorigin=""></script>
-        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Oswald:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@100;400&display=swap"
+        rel="stylesheet">
+
+    <script src=" https://kit.fontawesome.com/18b01259f7.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
 
-<section class="overskriftKontakt">
-    <h1>Kontakt</h1>
-</section>
-<section class="kontaktformular">
-    <div class="container">
-        <div class="venstre">
-            <form action="./kontakt.html">
-                <h2>Kontaktformular</h2>
-                <input type="text" id="navn" name="navn" placeholder="Navn">
-                <input type="text" id="mail" name="mail" placeholder="Mail">
-                <textarea id="besked" name="besked" placeholder="Besked" style="height:200px"></textarea>
-            <div class="sendBesked">
-                <input type="submit" value="Send besked" onclick="beskedTak()">
+
+    <header>
+        <div class="logoFaqKontaktContainer">
+            <a href="index.html" class="logo">Guitarnord <img class="logoImage"
+                    src="./assets/images/miniguitar_logo1.svg" alt="Mini guitar"></a>
+
+            <div class="faqKontaktContainer">
+
+                <a href="faq.html" class="faqButton">FAQ</a>
+
+                <a href="kontakt.html" class="kontaktButton">Kontakt</a>
+
             </div>
+        </div>
+
+        <nav>
+
+            <a href="omUnderviseren.html" class="omUndervisningenKnap mobileHide">Om undervisningen</i></a>
+
+            <a href="onlineundervisning.html" class="onlineundervisningKnap mobileHide">Onlineundervisning</a>
+
+
+            <ul class="dropdown" data-dropdown>
+
+                <button class="dropdownKnap mobileHide" data-dropdown-button>Holdundervisning <i
+                        class="fas fa-angle-down"></i></button>
+
+                <ul class="dropdownMenu1">
+
+                    <li><a href="holdundervisningGuitar.html">Guitar</a></li>
+
+                    <li><a href="holdundervisningGuitar.html">Elguitar</a></li>
+
+                    <li><a href="holdundervisningBas.html">Bas</a></li>
+
+                    <li><a href="holdundervisningUkulele.html">Ukulele</a></li>
+
+                    <li><a href="holdundervisningMandolin.html">Mandolin</a></li>
+
+                </ul>
+
+
+            </ul>
+
+
+            <ul class="dropdown" data-dropdown>
+
+                <button class="dropdownKnap mobileHide" data-dropdown-button>Kom godt igang <i
+                        class="fas fa-angle-down"></i></button>
+
+                <ul class="dropdownMenu2">
+
+                    <li><a href="underconstrucktion.html">Lær at stemme dit instrument</a></li>
+
+                    <li><a href="underconstrucktion.html">Guide til køb</a></li>
+
+                    <li><a href="underconstrucktion.html">Gratis nodepapir</a></li>
+
+                </ul>
+
+            </ul>
+
+            <ul class="dropdown" data-dropdown>
+
+                <button class="dropdownKnap gratisLektionerKnap mobileHide" data-dropdown-button>Gratis lektioner <i
+                        class="fas fa-angle-down"></i></button>
+
+                <ul class="dropdownMenu3">
+
+
+                    <ul class="dropdown" data-dropdown2>
+
+                        <button class="dropdownKnap instrumentøvelserKnap mobileHide"
+                            data-dropdown-button2>Instrumentøvelser <i class="fas fa-angle-down"></i></button>
+
+                        <ul class="dropdownUnderMenu3">
+
+                            <li><a href="guitarWorkout.html">Guitar</a></li>
+
+                            <li><a href="underconstrucktion.html">Bas</a></li>
+
+                            <li><a href="underconstrucktion.html">Ukulele</a></li>
+
+                            <li><a href="underconstrucktion.html">Mandolin</a></li>
+
+                        </ul>
+
+                    </ul>
+
+                    <li>
+                        <a href="underconstrucktion.html">Hørelære</a>
+                    </li>
+
+                </ul>
+
+            </ul>
+
+            </ul>
+
+
+
+
+            <div class="dropdown" data-dropdown2>
+
+                <button class="loginForEleverKnap dropdownKnap" data-dropdown-button2>Elev login <i
+                        class="fas fa-key loginPil pcHide"></i> </button>
+
+                <form class="dropdownMenu4 loginForm">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email"></input>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+
+
+
+
+            <ul class="dropdown2">
+
+                <button class="burgerMenuKnap"> <i class="fas fa-bars fa-4x"></i> </button>
+
+                <ul class="dropdownBurgerMenu">
+
+                    <li class="overMenu"> <a href="omUnderviseren.html">Om underviseren </a></li>
+                    
+                    <li class="overMenu"> <a href="onlineundervisning.html">Onlineundervisning </i></a></li>
+        
+                    <ul class="dropdown">
+
+                        <button class="burgerMenuListStyling overMenu">Holdundervisning</button>
+
+                        <ul>
+
+                            <li class="burgerUnderMenuListStyling"><a href="holdundervisningGuitar.html">Guitar</a></li>
+
+                            <li class="burgerUnderMenuListStyling"><a href="holdundervisningGuitar.html">Elguitar</a></li>
+
+                            <li class="burgerUnderMenuListStyling"><a href="holdundervisningBas.html">Bas</a></li>
+
+                            <li class="burgerUnderMenuListStyling"><a href="holdundervisningUkulele.html">Ukulele</a></li>
+
+                            <li class="burgerUnderMenuListStyling"><a href="holdundervisningMandolin.html">Mandolin</a></li>
+
+                        </ul>
+
+
+                    </ul>
+
+                    <ul class="dropdown">
+
+                        <button class="burgerMenuListStyling overMenu">Kom godt igang</button>
+
+                        <ul>
+
+                            <li class="burgerUnderMenuListStyling"><a href="underconstrucktion.html">Lær at stemme dit instrument</a></li>
+
+                            <li class="burgerUnderMenuListStyling"><a href="underconstrucktion.html">Guide til køb</a></li>
+
+                            <li class="burgerUnderMenuListStyling"><a href="underconstrucktion.html">Gratis nodepapir</a></li>
+
+                        </ul>
+
+                    </ul>
+
+                    <ul class="dropdown">
+
+                        <button class="burgerMenuListStyling overMenu">Gratis lektioner</button>
+
+                        <ul>
+
+
+                            <ul class="dropdown">
+
+                                <button class="burgerMenuListStyling underMenu">Instrumentøvelser</button>
+
+                                <ul>
+
+                                    <li class="burgerUnderMenuListStyling"><a href="guitarWorkout.html">Guitar</a></li>
+
+                                    <li class="burgerUnderMenuListStyling"><a href="underconstrucktion.html">Bas</a></li>
+
+                                    <li class="burgerUnderMenuListStyling"><a href="underconstrucktion.html">Ukulele</a></li>
+
+                                    <li class="burgerUnderMenuListStyling"><a href="underconstrucktion.html">Mandolin</a></li>
+
+                                </ul>
+
+                            </ul>
+
+                            <li class="underMenu">
+                                <a class="burgerMenuListStyling" href="underconstrucktion.html">Hørelære</a>
+                            </li>
+
+                        </ul>
+
+                    </ul>
+
+                </ul>
+
+            </ul>
+
+        </nav>
+
+        <a class="tilmeldDigCTA" href="./kontakt.html">Tilmeld dig</a>
+
+    </header>
+
+    <main>
+
+    <section class="overskriftKontakt">
+        <h1>Kontakt</h1>
+    </section>
+    <section class="kontaktformular">
+        <div class="container">
+            <div class="venstre">
+                <form action="./kontakt.html">
+                    <h2>Kontaktformular</h2>
+                    <input type="text" id="navn" name="navn" placeholder="Navn">
+                    <input type="text" id="mail" name="mail" placeholder="Mail">
+                    <textarea id="besked" name="besked" placeholder="Besked" style="height:200px"></textarea>
+                    <div class="sendBesked">
+                        <input type="submit" value="Send besked" onclick="beskedTak()">
+                    </div>
             </div>
             <div class="højre">
-                <p class="tekstIFormular">Skriv til mig via kontaktformularen, hvis du er interesseret i at tilmelde dig et af mine hold eller for at aftale en gratis prøvelektion i forbindelse med onlineundervisning</p>
+                <p class="tekstIFormular">Skriv til mig via kontaktformularen, hvis du er interesseret i at tilmelde dig
+                    et af mine hold eller for at aftale en gratis prøvelektion i forbindelse med onlineundervisning</p>
                 <p class="tekstIFormular">Kontakt mig også hvis du har nogle spørgsmål eller særlige ønsker</p>
                 <h4>Adresse</h4>
                 <p class="tekstIFormular">FOF Aalborg, Hobrovej 465E</p>
                 <p class="tekstIFormular">9000 Aalborg</p>
                 <div id="map"></div>
             </div>
-            
-        </form>
-    </div>
-</section>
 
-<footer>
-    <section>
-        <div class="nyhedsbrev">
-            <p class="tilmeld">Tilmeld dig nyhedsbrevet for at blive opdateret om nye hold og flere gratis lektioner!</p>
-            <div class="emailBoks">
-                <input type="email" id="indtastEmail" placeholder="Indtast din mailadresse">
-            </div>
-            <div class="flyerFigur">
-                <input class="indtastIkon" type="image" src="./assets/images/paper-plane-solid.png" onclick="emailTak()" />
-            </div>
+            </form>
         </div>
     </section>
 
-    <section class="footerKnapper">
-        <div>
-            <button class="footerKnap">Startside</button>
-            <button class="footerKnap">FAQ</button>
-            <button class="footerKnap">Kontakt</button>
-        </div>
-    </section>
-    <section class="adresseYT">
-        <div class="adresseBoks">
-            <h5 class="footerKontaktOverskrift">Adresse</h5>
-            <p>FOF Aalborg</p>
-            <p>Hobrovej 465E</p>
-            <p>9000 Aalborg</p>
-        </div>
-        <section class="afsluttendeText">
-            <p class="logoG">GuitarNord</p>
-            <p>@ 2022 Guitarnord</p>
+</main>
+
+    <footer>
+        <section>
+            <div class="nyhedsbrev">
+                <p class="tilmeld">Tilmeld dig nyhedsbrevet for at blive opdateret om nye hold og flere gratis
+                    lektioner!</p>
+                <div class="emailBoks">
+                    <input type="email" id="indtastEmail" placeholder="Indtast din mailadresse">
+                </div>
+                <div class="flyerFigur">
+                    <input class="indtastIkon" type="image" src="./assets/images/paper-plane-solid.png"
+                        onclick="emailTak()" />
+                </div>
+            </div>
         </section>
-        <div class="ytLogoBox">
-            <a href="https://www.youtube.com/channel/UCOKHdI13HevWmQyPoNVTk3g"><img src="./assets/images/youtube-brands.png" alt="Youtube" class="ytLogo"></a>
-        </div>
-    </section>
+
+        <section class="footerKnapper">
+            <div>
+                <button class="footerKnap">Startside</button>
+                <button class="footerKnap">FAQ</button>
+                <button class="footerKnap">Kontakt</button>
+            </div>
+        </section>
+        <section class="adresseYT">
+            <div class="adresseBoks">
+                <h5 class="footerKontaktOverskrift">Adresse</h5>
+                <p>FOF Aalborg</p>
+                <p>Hobrovej 465E</p>
+                <p>9000 Aalborg</p>
+            </div>
+            <section class="afsluttendeText">
+                <p class="logoG">GuitarNord</p>
+                <p>@ 2022 Guitarnord</p>
+            </section>
+            <div class="ytLogoBox">
+                <a href="https://www.youtube.com/channel/UCOKHdI13HevWmQyPoNVTk3g"><img
+                        src="./assets/images/youtube-brands.png" alt="Youtube" class="ytLogo"></a>
+            </div>
+        </section>
     </footer>
 </body>
 

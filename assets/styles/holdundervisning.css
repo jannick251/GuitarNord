@@ -1,6 +1,7 @@
 .forsideBillede {
     width: 100%;
     opacity: 55%;
+    z-index: -1;
   }
 .forsideBillede2 {
     display: none;

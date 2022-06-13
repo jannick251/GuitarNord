@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="en" data-html>
 
 <head>
     <meta charset="UTF-8">
@@ -10,121 +10,357 @@
     <link rel="stylesheet" href="./assets/styles/styles.css">
     <script src="./assets/script/yt.js" defer></script>
     <script src="./assets/script/script.js" defer></script>
+
+    <link rel="stylesheet" href="./assets/styles/header.css">
+
+    <script src=" https://kit.fontawesome.com/18b01259f7.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Oswald:wght@400;500;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <section>
-        <img class="forsideBillede" src="./assets/images/fe2ceeed-075a-46cc-856a-30bcf5c5748d.png" alt="herobilledeAfGuitar">
-    </section>
-    <div>
-        <h1 class="overskriftForside">Musikundervisning i Aalborg og online</h1>
-    </div>
-    <section class="flexSektionOmForside">
+
+
+    <header>
+        <div class="logoFaqKontaktContainer">
+            <a href="index.html" class="logo">Guitarnord <img class="logoImage"
+                    src="./assets/images/miniguitar_logo1.svg" alt="Mini guitar"></a>
+
+            <div class="faqKontaktContainer">
+
+                <a href="faq.html" class="faqButton">FAQ</a>
+
+                <a href="kontakt.html" class="kontaktButton">Kontakt</a>
+
+            </div>
+        </div>
+
+        <nav>
+
+            <a href="omUnderviseren.html" class="omUndervisningenKnap mobileHide">Om undervisningen</i></a>
+
+            <a href="onlineundervisning.html" class="onlineundervisningKnap mobileHide">Onlineundervisning</a>
+
+
+            <ul class="dropdown" data-dropdown>
+
+                <button class="dropdownKnap mobileHide" data-dropdown-button>Holdundervisning <i
+                        class="fas fa-angle-down"></i></button>
+
+                <ul class="dropdownMenu1">
+
+                    <li><a href="holdundervisningGuitar.html">Guitar</a></li>
+
+                    <li><a href="holdundervisningGuitar.html">Elguitar</a></li>
+
+                    <li><a href="holdundervisningBas.html">Bas</a></li>
+
+                    <li><a href="holdundervisningUkulele.html">Ukulele</a></li>
+
+                    <li><a href="holdundervisningMandolin.html">Mandolin</a></li>
+
+                </ul>
+
+
+            </ul>
+
+
+            <ul class="dropdown" data-dropdown>
+
+                <button class="dropdownKnap mobileHide" data-dropdown-button>Kom godt igang <i
+                        class="fas fa-angle-down"></i></button>
+
+                <ul class="dropdownMenu2">
+
+                    <li><a href="underconstrucktion.html">Lær at stemme dit instrument</a></li>
+
+                    <li><a href="underconstrucktion.html">Guide til køb</a></li>
+
+                    <li><a href="underconstrucktion.html">Gratis nodepapir</a></li>
+
+                </ul>
+
+            </ul>
+
+            <ul class="dropdown" data-dropdown>
+
+                <button class="dropdownKnap gratisLektionerKnap mobileHide" data-dropdown-button>Gratis lektioner <i
+                        class="fas fa-angle-down"></i></button>
+
+                <ul class="dropdownMenu3">
+
+
+                    <ul class="dropdown" data-dropdown2>
+
+                        <button class="dropdownKnap instrumentøvelserKnap mobileHide"
+                            data-dropdown-button2>Instrumentøvelser <i class="fas fa-angle-down"></i></button>
+
+                        <ul class="dropdownUnderMenu3">
+
+                            <li><a href="guitarWorkout.html">Guitar</a></li>
+
+                            <li><a href="underconstrucktion.html">Bas</a></li>
+
+                            <li><a href="underconstrucktion.html">Ukulele</a></li>
+
+                            <li><a href="underconstrucktion.html">Mandolin</a></li>
+
+                        </ul>
+
+                    </ul>
+
+                    <li>
+                        <a href="underconstrucktion.html">Hørelære</a>
+                    </li>
+
+                </ul>
+
+            </ul>
+
+            </ul>
+
+
+
+
+            <div class="dropdown" data-dropdown2>
+
+                <button class="loginForEleverKnap dropdownKnap" data-dropdown-button2>Elev login <i
+                        class="fas fa-key loginPil pcHide"></i> </button>
+
+                <form class="dropdownMenu4 loginForm">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email"></input>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+
+
+
+
+            <ul class="dropdown2">
+
+                <button class="burgerMenuKnap"> <i class="fas fa-bars fa-4x"></i> </button>
+
+                <ul class="dropdownBurgerMenu">
+
+                    <li class="overMenu"> <a href="omUnderviseren.html">Om underviseren </a></li>
+                    
+                    <li class="overMenu"> <a href="onlineundervisning.html">Onlineundervisning </i></a></li>
+        
+                    <ul class="dropdown">
+
+                        <button class="burgerMenuListStyling overMenu">Holdundervisning</button>
+
+                        <ul>
+
+                            <li class="burgerUnderMenuListStyling"><a href="holdundervisningGuitar.html">Guitar</a></li>
+
+                            <li class="burgerUnderMenuListStyling"><a href="holdundervisningGuitar.html">Elguitar</a></li>
+
+                            <li class="burgerUnderMenuListStyling"><a href="holdundervisningBas.html">Bas</a></li>
+
+                            <li class="burgerUnderMenuListStyling"><a href="holdundervisningUkulele.html">Ukulele</a></li>
+
+                            <li class="burgerUnderMenuListStyling"><a href="holdundervisningMandolin.html">Mandolin</a></li>
+
+                        </ul>
+
+
+                    </ul>
+
+                    <ul class="dropdown">
+
+                        <button class="burgerMenuListStyling overMenu">Kom godt igang</button>
+
+                        <ul>
+
+                            <li class="burgerUnderMenuListStyling"><a href="underconstrucktion.html">Lær at stemme dit instrument</a></li>
+
+                            <li class="burgerUnderMenuListStyling"><a href="underconstrucktion.html">Guide til køb</a></li>
+
+                            <li class="burgerUnderMenuListStyling"><a href="underconstrucktion.html">Gratis nodepapir</a></li>
+
+                        </ul>
+
+                    </ul>
+
+                    <ul class="dropdown">
+
+                        <button class="burgerMenuListStyling overMenu">Gratis lektioner</button>
+
+                        <ul>
+
+
+                            <ul class="dropdown">
+
+                                <button class="burgerMenuListStyling underMenu">Instrumentøvelser</button>
+
+                                <ul>
+
+                                    <li class="burgerUnderMenuListStyling"><a href="guitarWorkout.html">Guitar</a></li>
+
+                                    <li class="burgerUnderMenuListStyling"><a href="underconstrucktion.html">Bas</a></li>
+
+                                    <li class="burgerUnderMenuListStyling"><a href="underconstrucktion.html">Ukulele</a></li>
+
+                                    <li class="burgerUnderMenuListStyling"><a href="underconstrucktion.html">Mandolin</a></li>
+
+                                </ul>
+
+                            </ul>
+
+                            <li class="underMenu">
+                                <a class="burgerMenuListStyling" href="underconstrucktion.html">Hørelære</a>
+                            </li>
+
+                        </ul>
+
+                    </ul>
+
+                </ul>
+
+            </ul>
+
+        </nav>
+
+        <a class="tilmeldDigCTA" href="./kontakt.html">Tilmeld dig</a>
+
+    </header>
+
+    <main>
+
+        <section>
+            <img class="forsideBillede" src="./assets/images/fe2ceeed-075a-46cc-856a-30bcf5c5748d.png"
+                alt="herobilledeAfGuitar">
+        </section>
+        <div>
+            <h1 class="overskriftForside">Musikundervisning i Aalborg og online</h1>
+        </div>
+        <section class="flexSektionOmForside">
             <div class="billedeBox">
-                <img class="flexSektionOmForsideBillede" src="./assets/images/8a781c32-644b-46e6-b0cb-ae188347b2dc.jpg" alt="billedeAfNick">
+                <img class="flexSektionOmForsideBillede" src="./assets/images/8a781c32-644b-46e6-b0cb-ae188347b2dc.jpg"
+                    alt="billedeAfNick">
             </div>
             <div class="flexSektionOmForsideTekstBoks">
-                <p class="flexSektionOmForsideTekst">Mit navn er Nick Siriwardh, og jeg har skabt GuitarNord som et sted for dig, der godt kunne tænke sig at lære at spille et instrument</p>
-                <p class="flexSektionOmForsideTekst">På siden vil du finde information om holdundervisning samt muligheden for onlineundervisning. Du kan også finde gratis lektioner i forskellige instrumenter i form af øvelser med rytmer og fingerspil, så du kan forbedre dit spil</p>
+                <p class="flexSektionOmForsideTekst">Mit navn er Nick Siriwardh, og jeg har skabt GuitarNord som et sted
+                    for dig, der godt kunne tænke sig at lære at spille et instrument</p>
+                <p class="flexSektionOmForsideTekst">På siden vil du finde information om holdundervisning samt
+                    muligheden for onlineundervisning. Du kan også finde gratis lektioner i forskellige instrumenter i
+                    form af øvelser med rytmer og fingerspil, så du kan forbedre dit spil</p>
                 <h6 class="flexSektionOmForsideTekstOverskrift">Erfaren Musiker</h6>
-                <p class="flexSektionOmForsideTekst">Som fast underviser i musik i de sidste 12 år har jeg stor erfaring med at undervise både nybegyndere og erfarne musikere</p>
-                <p class="flexSektionOmForsideTekst">Derudover er jeg medstifter af blandt andet Aalborg Musikforening og Aalborg Musikportal, som skal hjælpe med at fremme musikken i Aalborg</p>
+                <p class="flexSektionOmForsideTekst">Som fast underviser i musik i de sidste 12 år har jeg stor erfaring
+                    med at undervise både nybegyndere og erfarne musikere</p>
+                <p class="flexSektionOmForsideTekst">Derudover er jeg medstifter af blandt andet Aalborg Musikforening
+                    og Aalborg Musikportal, som skal hjælpe med at fremme musikken i Aalborg</p>
                 <div class="mereKnap">
                     <button class="flexSektionOmForsideKnap">
                         <a href="#" class="flexSektionOmForsideKnapIndhold">LÆS MERE</a>
                     </button>
                 </div>
-        </div>
-    </section>
-    <section class="sektionMedFlexInstrumenter">
-        <div>
-            <h3 class="overskrifterForside">Holdundervisning i dit instrument</h3>
-            <h5 class="underoverskriftForside">Klik på intrumenterne for at læse mere</h5>
-        </div>
+            </div>
+        </section>
+        <section class="sektionMedFlexInstrumenter">
+            <div>
+                <h3 class="overskrifterForside">Holdundervisning i dit instrument</h3>
+                <h5 class="underoverskriftForside">Klik på intrumenterne for at læse mere</h5>
+            </div>
             <div class="flexInstrumenter">
                 <a href="#" class="flexGuitar">GUITAR</a>
                 <a href="#" class="flexBas">BAS</a>
                 <a href="#" class="flexUkelele">UKULELE</a>
                 <a href="#" class="flexMandolin">MANDOLIN</a>
-              </div>
-    </section>
+            </div>
+        </section>
 
-    <section class="videoerSektion">
-        <div>
-            <h3 class="overskrifterForside">Gratis guitar øvelser</h3>
-            <h5 class="underoverskriftForside">Bliv bedre til at spille guitar og andre instrumenter med øvelser i fingerspil og rytmer</h5>
-        </div>
-        <div class="videoerSektionVideoer">
-            <div id="video1"></div>
-            <div id="video2"></div>
-            <div id="video3"></div>
-        </div>
-        <div class="mereKnap">
-            <button class="flexSektionOmForsideKnap">
-                <a href="#" class="flexSektionOmForsideKnapIndhold">SE ALLE ØVELSER</a>
-            </button>
-        </div>
-    </section>
-
-    <section class="flexSektionOmForside">
-        <div class="billedeBox">
-            <img class="flexSektionOmForsideBillede" src="./assets/images/tablet-billede.png" alt="billedeAfNick">
-        </div>
-        <div class="flexSektionOmForsideTekstBoks">
-            <h1 class="overskriftOnline">Det har aldrig været nemmere at lære at spille et instument</h1>
-            <p class="flexSektionOmForsideTekst">Som noget nyt tilbyder jeg onlineundervisning til dig, som f.eks. er bosat i et område, der ligger langt væk i forhold til den almindelige undervisning i Aalborg</p>
-            <p class="flexSektionOmForsideTekst">På den måde kan du modtage undervisning selv om du bor i en andel del af landet.</p>
-            <h6 class="flexSektionOmForsideTekstOverskrift">Andre fordele ved onlingeundervisning</h6>
-            <ol class="flexSektionOmForsideListe">
-                <li>Du sparer tid og penge på transport</li>
-                <li>Det er mere fleksibelt i forhold til tidspunker og dage</li>
-                <li>Du er i trygge og vante rammer</li>
-                <li>Du behøver ikke transportere dit eget grej eller instrument</li>
-            </ol>
+        <section class="videoerSektion">
+            <div>
+                <h3 class="overskrifterForside">Gratis guitar øvelser</h3>
+                <h5 class="underoverskriftForside">Bliv bedre til at spille guitar og andre instrumenter med øvelser i
+                    fingerspil og rytmer</h5>
+            </div>
+            <div class="videoerSektionVideoer">
+                <div id="video1"></div>
+                <div id="video2"></div>
+                <div id="video3"></div>
+            </div>
             <div class="mereKnap">
                 <button class="flexSektionOmForsideKnap">
-                    <a href="#" class="flexSektionOmForsideKnapIndhold">LÆS MERE</a>
+                    <a href="#" class="flexSektionOmForsideKnapIndhold">SE ALLE ØVELSER</a>
                 </button>
             </div>
-    </div>
-</section>
-
-
-<footer>
-    <section>
-        <div class="nyhedsbrev">
-            <p class="tilmeld">Tilmeld dig nyhedsbrevet for at blive opdateret om nye hold og flere gratis lektioner!</p>
-            <div class="emailBoks">
-                <input type="email" id="indtastEmail" placeholder="Indtast din mailadresse">
-            </div>
-            <div class="flyerFigur">
-                <input class="indtastIkon" type="image" src="./assets/images/paper-plane-solid.png" onclick="emailTak()" />
-            </div>
-        </div>
-    </section>
-
-    <section class="footerKnapper">
-        <div>
-            <button class="footerKnap">Startside</button>
-            <button class="footerKnap">FAQ</button>
-            <button class="footerKnap">Kontakt</button>
-        </div>
-    </section>
-    <section class="adresseYT">
-        <div class="adresseBoks">
-            <h5 class="footerKontaktOverskrift">Adresse</h5>
-            <p>FOF Aalborg</p>
-            <p>Hobrovej 465E</p>
-            <p>9000 Aalborg</p>
-        </div>
-        <section class="afsluttendeText">
-            <p class="logoG">GuitarNord</p>
-            <p>@ 2022 Guitarnord</p>
         </section>
-        <div class="ytLogoBox">
-            <a href="https://www.youtube.com/channel/UCOKHdI13HevWmQyPoNVTk3g"><img src="./assets/images/youtube-brands.png" alt="Youtube" class="ytLogo"></a>
-        </div>
-    </section>
+
+        <section class="flexSektionOmForside">
+            <div class="billedeBox">
+                <img class="flexSektionOmForsideBillede" src="./assets/images/tablet-billede.png" alt="billedeAfNick">
+            </div>
+            <div class="flexSektionOmForsideTekstBoks">
+                <h1 class="overskriftOnline">Det har aldrig været nemmere at lære at spille et instument</h1>
+                <p class="flexSektionOmForsideTekst">Som noget nyt tilbyder jeg onlineundervisning til dig, som f.eks.
+                    er bosat i et område, der ligger langt væk i forhold til den almindelige undervisning i Aalborg</p>
+                <p class="flexSektionOmForsideTekst">På den måde kan du modtage undervisning selv om du bor i en andel
+                    del af landet.</p>
+                <h6 class="flexSektionOmForsideTekstOverskrift">Andre fordele ved onlingeundervisning</h6>
+                <ol class="flexSektionOmForsideListe">
+                    <li>Du sparer tid og penge på transport</li>
+                    <li>Det er mere fleksibelt i forhold til tidspunker og dage</li>
+                    <li>Du er i trygge og vante rammer</li>
+                    <li>Du behøver ikke transportere dit eget grej eller instrument</li>
+                </ol>
+                <div class="mereKnap">
+                    <button class="flexSektionOmForsideKnap">
+                        <a href="#" class="flexSektionOmForsideKnapIndhold">LÆS MERE</a>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <section>
+            <div class="nyhedsbrev">
+                <p class="tilmeld">Tilmeld dig nyhedsbrevet for at blive opdateret om nye hold og flere gratis
+                    lektioner!</p>
+                <div class="emailBoks">
+                    <input type="email" id="indtastEmail" placeholder="Indtast din mailadresse">
+                </div>
+                <div class="flyerFigur">
+                    <input class="indtastIkon" type="image" src="./assets/images/paper-plane-solid.png"
+                        onclick="emailTak()" />
+                </div>
+            </div>
+        </section>
+
+        <section class="footerKnapper">
+            <div>
+                <button class="footerKnap">Startside</button>
+                <button class="footerKnap">FAQ</button>
+                <button class="footerKnap">Kontakt</button>
+            </div>
+        </section>
+        <section class="adresseYT">
+            <div class="adresseBoks">
+                <h5 class="footerKontaktOverskrift">Adresse</h5>
+                <p>FOF Aalborg</p>
+                <p>Hobrovej 465E</p>
+                <p>9000 Aalborg</p>
+            </div>
+            <section class="afsluttendeText">
+                <p class="logoG">GuitarNord</p>
+                <p>@ 2022 Guitarnord</p>
+            </section>
+            <div class="ytLogoBox">
+                <a href="https://www.youtube.com/channel/UCOKHdI13HevWmQyPoNVTk3g"><img
+                        src="./assets/images/youtube-brands.png" alt="Youtube" class="ytLogo"></a>
+            </div>
+        </section>
     </footer>
 </body>
 

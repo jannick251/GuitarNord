@@ -4,6 +4,7 @@
     color: var(--black);
     font-family: 'Oswald';
     font-size: 3rem;
+    padding: 0 0 5vh 0;
   }
   .aWorkout {
     text-decoration: none;
@@ -24,20 +25,16 @@
 
   .emptySpace{
     height: 13vw;
-
   }
   
   
   @media only screen and (max-width: 480px) {
-    .workout {
-      width: auto;
-      padding-left: 0%;
-      padding-right: 0%;
-    }
     .emptySpace{
       height: 3vw;
-      
     }
+  .h1Workout {
+    padding: 0;
+  }
   
     h1 {
       font-size: 2rem;

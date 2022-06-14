@@ -18,6 +18,7 @@ header {
     display: flex;
     flex-direction: column;
     color: var(--white);
+    
 }
 
 header a {

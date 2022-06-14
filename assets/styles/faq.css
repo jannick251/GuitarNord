@@ -83,7 +83,7 @@ padding-top: 3rem;
   font-size: 20px;
   text-align: center;
   color: rgb(4, 182, 206);
-  margin-block-end: 0.5em;
+  margin-block-end: 2vw;
   margin-block-start: 0em;
 }
 
@@ -110,8 +110,8 @@ padding-top: 3rem;
 .tilbageTilTop {
   text-decoration: none;
   text-align: center;
-  padding-top: 3%;
-  padding-bottom: 2%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   color: gray;
   cursor: pointer;
 }
@@ -125,9 +125,8 @@ padding-top: 3rem;
     font-size: 18px;
   } 
   .accTekst {
-    padding-top: 10%;
-    padding-bottom: 10%;
-    font-size: 20px;
+    padding-top: 2%;
+    font-size: 4vw;
   }
   
   .accTekstAdr {
@@ -139,6 +138,12 @@ padding-top: 3rem;
    padding-left: 8%;
    padding-right: 8%;
    margin-block-start: 0px;
+  }
+
+  .faqOverskrift {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 3vw;
   }
 
 }

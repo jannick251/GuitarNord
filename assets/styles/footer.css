@@ -160,7 +160,7 @@ footer{
         color: white;
         padding-left: 15%;
         padding-right: 15%;
-        padding-top: 2.5em;
+        padding-top: 5%;
     }
     
     #indtastEmail {
@@ -196,13 +196,14 @@ footer{
     display: flex;
     background-color: var(--darkGrey);
     flex-direction: column;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 /*Knapper i footer, enkelte elementer*/
 .footerKnap {
-    padding: 6px 50px 6px 50px;
-    width: auto;
+    width: 30%;
     text-align: center;
     text-decoration: none;
     margin-block-start: 2em;
@@ -230,7 +231,7 @@ footer{
 .afsluttendeText {
     text-align: center;
     padding-left: 0%;
-    height: 150px;
+    height: 30vw;
 }
 
 .logoG {
@@ -241,7 +242,6 @@ footer{
 
 .footerKontaktOverskrift {
     font-size: 30px;
-    margin-block-end: 0.5em;
     margin-block-start: 0.5em;
 }
 

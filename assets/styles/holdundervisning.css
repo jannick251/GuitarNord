@@ -32,15 +32,27 @@
     gap: 7%;
 }
 
-.sektionIntro a {
-    margin-top: 3vw;
-}
-
 .sektionVenstre{
     width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 } 
+
+.sektionVenstre > h3 {
+    margin-top: 1vw;
+}
+
+
 .sektionRight {
     width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sektionRight > h3 {
+    margin-top: 1.5vw;
 }
 
 .holdElement {
@@ -48,6 +60,9 @@
     background-color: var(--darkGrey);
     width: 100%;
     color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .holdElementPaaVej {

@@ -84,7 +84,7 @@
     font-weight: bold;
   }
   
-  .active,
+  .active2,
   .accordion:hover {
     background-color: #F5F5F5;
   }
@@ -115,7 +115,7 @@
   }
   
     /* "Content": \2212 er '-' sourcekoden til åben og luk funktionen */
-  .active:after {
+  .active2:after {
     content: "\2212";
   }
   
@@ -165,6 +165,9 @@
     margin-top: 1.5vw;
 }
 
+.tilbageTilTop:hover {
+  color: var(--black);
+}
 
 @media only screen and (max-width: 480px) {
 

@@ -25,7 +25,7 @@
   font-family: 'Oswald';
 }
 
-.active,
+.active2,
 .accordion:hover {
   background-color: #F5F5F5;
 }
@@ -57,7 +57,7 @@
 }
 
   /* "Content": \2212 er '-' sourcekoden til åben og luk funktionen */
-.active:after {
+.active2:after {
   content: "\2212";
 }
 

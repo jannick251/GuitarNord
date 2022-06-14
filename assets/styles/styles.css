@@ -1,7 +1,10 @@
 body {
     margin: 0;
     font-family: 'Oswald';
+}
 
+p {
+    font-weight: 100;
 }
 
 /* Colors for variants */

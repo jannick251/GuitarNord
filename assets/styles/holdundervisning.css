@@ -183,13 +183,7 @@
 
 
 @media only screen and (max-width: 480px) {
-    .forsideBillede {
-        display: none;
-      }
     
-    .forsideBillede2 {
-        display: none;
-    }
 
     .sektionIntro {
         padding: 1% 15%;

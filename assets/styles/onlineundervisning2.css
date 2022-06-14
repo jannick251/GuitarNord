@@ -23,6 +23,7 @@
 
 .sektionOnlineTekst {
     font-size: large;
+    padding-bottom: 8%;
 }
 
 .sektionOnlineTeksten {
@@ -100,13 +101,26 @@
     float: right;
     margin-left: 5px;
   }
+
+  .accPictures {
+    padding-top: 1%;
+    width: 100%;
+    text-align: center;
+  }
   
+  .accPicture {
+    width: 80%;
+  }
+  
+  .accTeksten {
+    width: 100%;
+  }
   
   .accTekst {
-    font-size: 1.2vw;
-    padding-top: 1%;
-    margin-block-start: 0em;
-    margin-block-end: 0.7em;
+    width: 100%;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-bottom: 1%;
   }
   
   .accTekstAdr {
@@ -131,6 +145,8 @@
     max-height: 0;
     overflow: hidden;
     transition: 0.2s ease-out;
+    display: flex;
+    flex-direction: column;
   }
 
   .accordionsFAQ {

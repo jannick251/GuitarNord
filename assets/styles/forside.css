@@ -7,7 +7,8 @@
 /* Første sektion på forside der leder til om-mig herunder */
 
 .overskriftOnline{
-  font-size: 50px;
+  font-size: 2em;
+  text-align: left;
 }
 /*OVERSKRIFT*/
 .overskriftForside {
@@ -16,26 +17,28 @@
   text-transform: uppercase;
 }
 
+
 .flexSektionOmForside {
   display: flex;
-  font-size: 20px;
-  padding-left: 10%;
+  flex-direction: row;
+  font-size: 16px;
   padding-top: 4%;
   text-align: center;
   padding-bottom: 3rem;
-
+  width: 100vw;
 }
 
 .flexSektionOmForsideBillede {
-  padding: 10px;
-  width: 80%;
+  width: 90%;
   flex: 50%;
+  flex: left;
+  padding-left: 15%;
 }
 
 .flexSektionOmForsideTekstBoks {
+  padding-right: 15%;
   padding: 10px;
-  flex: 50%;
-  padding-left: 5%;
+  padding-left: 1%;
   padding-right: 10%;
   text-align: left;
   margin-block-start: 0px;
@@ -45,6 +48,7 @@
 .flexSektionOmForsideTekst {
   margin-block-start: 0px;
   margin-block-end: 2em;
+  font-weight: 100;
 }
 
 .flexSektionOmForsideTekstOverskrift {
@@ -89,6 +93,7 @@
   text-align: center;
   color: var(--aqua);
   margin-block-start: 0em;
+  margin-block-end: 1em;
 }
 
 .sektionMedFlexInstrumenter {
@@ -114,8 +119,8 @@
   border: var(--black) 4px dotted;
   font-size: 25px;
   border-radius: 100%;
-  padding-top: 9.5%;
-  padding-bottom: 9.5%;
+  padding-top: 9%;
+  padding-bottom: 9%;
   margin-right: 2%;
   flex: 10%;
   cursor: pointer;
@@ -169,6 +174,25 @@
 }
 
 /* Alt herover er sektionen med videoer */
+
+
+
+.flexSektionOmForsideBillede2 {
+  width: 100%;
+  text-align: center;
+  padding-left: 25%;
+  padding-left: 25%;
+}
+
+.flexSektionOmForsideTekstBoks2 {
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.listPunkt {
+  font-weight: 100  ;
+}
 
 
 

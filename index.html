@@ -241,7 +241,7 @@
     <main>
 
         <section>
-            <img class="forsideBillede" src="./assets/images/fe2ceeed-075a-46cc-856a-30bcf5c5748d.png"
+            <img class="forsideBillede" src="./assets/images/GuitarStrengNærbillede.jpg"
                 alt="herobilledeAfGuitar">
         </section>
         <div>
@@ -249,7 +249,7 @@
         </div>
         <section class="flexSektionOmForside">
             <div class="billedeBox">
-                <img class="flexSektionOmForsideBillede" src="./assets/images/8a781c32-644b-46e6-b0cb-ae188347b2dc.jpg"
+                <img class="flexSektionOmForsideBillede" src="./assets/images/NickMedGuitarIFarve.png"
                     alt="billedeAfNick">
             </div>
             <div class="flexSektionOmForsideTekstBoks">
@@ -273,10 +273,10 @@
                 <h5 class="underoverskriftForside">Klik på intrumenterne for at læse mere</h5>
             </div>
             <div class="flexInstrumenter">
-                <a href="#" class="flexGuitar">GUITAR</a>
-                <a href="#" class="flexBas">BAS</a>
-                <a href="#" class="flexUkelele">UKULELE</a>
-                <a href="#" class="flexMandolin">MANDOLIN</a>
+                <a href="./holdundervisningGuitar.html" class="flexGuitar">GUITAR</a>
+                <a href="./holdundervisningBas.html" class="flexBas">BAS</a>
+                <a href="./holdundervisningUkulele.html" class="flexUkelele">UKULELE</a>
+                <a href="./holdundervisningMandolin.html" class="flexMandolin">MANDOLIN</a>
             </div>
         </section>
 
@@ -292,47 +292,27 @@
                 <div id="video3"></div>
             </div>
             <div class="mereKnap">
-                <button class="flexSektionOmForsideKnap">
-                    <a href="#" class="flexSektionOmForsideKnapIndhold">SE ALLE ØVELSER</a>
-                </button>
-            </div>
-                <a href="./holdundervisningGuitar.html" class="flexGuitar">GUITAR</a>
-                <a href="./holdundervisningBas.html" class="flexBas">BAS</a>
-                <a href="./holdundervisningUkulele.html" class="flexUkelele">UKULELE</a>
-                <a href="./holdundervisningMandolin.html" class="flexMandolin">MANDOLIN</a>
-              </div>
+                <a href="./guitarWorkout.html" class="tilmeldHoldKnap"> SE ALLE ØVELSER
+                </a>
+           
     </section>
 
-    <section class="videoerSektion">
-        <div>
-            <h3 class="overskrifterForside">Gratis guitar øvelser</h3>
-            <h5 class="underoverskriftForside">Bliv bedre til at spille guitar og andre instrumenter med øvelser i fingerspil og rytmer</h5>
-        </div>
-        <div class="videoerSektionVideoer">
-            <div id="video1"></div>
-            <div id="video2"></div>
-            <div id="video3"></div>
-        </div>
-        <div class="knapTilmeldU">
-            <a href="./guitarWorkout.html" class="tilmeldHoldKnap"> SE ALLE ØVELSER
-            </a>
-        </div>
-    </section>
+    
 
     <section class="flexSektionOmForside">
         <div class="billedeBox">
-            <img class="flexSektionOmForsideBillede" src="./assets/images/tablet-billede.png" alt="billedeAfNick">
+            <img class="flexSektionOmForsideBillede2" src="./assets/images/tablet-billede.png" alt="billedeAfNick">
         </div>
-        <div class="flexSektionOmForsideTekstBoks">
+        <div class="flexSektionOmForsideTekstBoks2">
             <h1 class="overskriftOnline">Det har aldrig været nemmere at lære at spille et instument</h1>
             <p class="flexSektionOmForsideTekst">Som noget nyt tilbyder jeg onlineundervisning til dig, som f.eks. er bosat i et område, der ligger langt væk i forhold til den almindelige undervisning i Aalborg</p>
             <p class="flexSektionOmForsideTekst">På den måde kan du modtage undervisning selv om du bor i en andel del af landet.</p>
             <h6 class="flexSektionOmForsideTekstOverskrift">Andre fordele ved onlingeundervisning</h6>
             <ol class="flexSektionOmForsideListe">
-                <li>Du sparer tid og penge på transport</li>
-                <li>Det er mere fleksibelt i forhold til tidspunker og dage</li>
-                <li>Du er i trygge og vante rammer</li>
-                <li>Du behøver ikke transportere dit eget grej eller instrument</li>
+                <li class="listPunkt">Du sparer tid og penge på transport</li>
+                <li class="listPunkt">Det er mere fleksibelt i forhold til tidspunker og dage</li>
+                <li class="listPunkt">Du er i trygge og vante rammer</li>
+                <li class="listPunkt">Du behøver ikke transportere dit eget grej eller instrument</li>
             </ol>
             <div class="knapTilmeldU">
                 <a href="./onlineundervisning2.html" class="tilmeldHoldKnap"> LÆS MERE
@@ -341,21 +321,20 @@
     </div>
 </section>
 
-
 <footer>
     <section>
         <div class="nyhedsbrev">
             <p class="tilmeld">Tilmeld dig nyhedsbrevet for at blive opdateret om nye hold og flere gratis lektioner!</p>
-            <div class="emailBoks">
-                <input type="email" id="indtastEmail" placeholder="Indtast din mailadresse">
-            </div>
+            <form class="emailBoks">
+                <input type="email" name="indtastEmail"  id="indtastEmail" placeholder="Indtast din mailadresse">
+            </form>
             <div class="flyerFigur">
                 <input class="indtastIkon" type="image" src="./assets/images/paper-plane-solid.png" onclick="emailTak()" />
             </div>
         </div>
     </section>
 
-    <section>
+    <section class="footerBagground">
         <div class="footerKnapper">
             <a href="./index.html" class="footerKnap">Startside</a>
             <a href="./faq.html" class="footerKnap">FAQ</a>
@@ -373,73 +352,14 @@
             <p class="logoG">GuitarNord</p>
             <p>@ 2022 Guitarnord</p>
         </section>
-
-        <section class="flexSektionOmForside">
-            <div class="billedeBox">
-                <img class="flexSektionOmForsideBillede" src="./assets/images/tablet-billede.png" alt="billedeAfNick">
-            </div>
-            <div class="flexSektionOmForsideTekstBoks">
-                <h1 class="overskriftOnline">Det har aldrig været nemmere at lære at spille et instument</h1>
-                <p class="flexSektionOmForsideTekst">Som noget nyt tilbyder jeg onlineundervisning til dig, som f.eks.
-                    er bosat i et område, der ligger langt væk i forhold til den almindelige undervisning i Aalborg</p>
-                <p class="flexSektionOmForsideTekst">På den måde kan du modtage undervisning selv om du bor i en andel
-                    del af landet.</p>
-                <h6 class="flexSektionOmForsideTekstOverskrift">Andre fordele ved onlingeundervisning</h6>
-                <ol class="flexSektionOmForsideListe">
-                    <li>Du sparer tid og penge på transport</li>
-                    <li>Det er mere fleksibelt i forhold til tidspunker og dage</li>
-                    <li>Du er i trygge og vante rammer</li>
-                    <li>Du behøver ikke transportere dit eget grej eller instrument</li>
-                </ol>
-                <div class="mereKnap">
-                    <button class="flexSektionOmForsideKnap">
-                        <a href="#" class="flexSektionOmForsideKnapIndhold">LÆS MERE</a>
-                    </button>
-                </div>
-            </div>
-        </section>
+        <div class="ytLogoBox">
+            <a href="https://www.youtube.com/channel/UCOKHdI13HevWmQyPoNVTk3g"><img src="./assets/images/youtube-brands.png" alt="Youtube" class="ytLogo"></a>
+        </div>
+    </section>
+    </footer>
 
     </main>
 
-    <footer>
-        <section>
-            <div class="nyhedsbrev">
-                <p class="tilmeld">Tilmeld dig nyhedsbrevet for at blive opdateret om nye hold og flere gratis
-                    lektioner!</p>
-                <div class="emailBoks">
-                    <input type="email" id="indtastEmail" placeholder="Indtast din mailadresse">
-                </div>
-                <div class="flyerFigur">
-                    <input class="indtastIkon" type="image" src="./assets/images/paper-plane-solid.png"
-                        onclick="emailTak()" />
-                </div>
-            </div>
-        </section>
-
-        <section class="footerKnapper">
-            <div>
-                <button class="footerKnap">Startside</button>
-                <button class="footerKnap">FAQ</button>
-                <button class="footerKnap">Kontakt</button>
-            </div>
-        </section>
-        <section class="adresseYT">
-            <div class="adresseBoks">
-                <h5 class="footerKontaktOverskrift">Adresse</h5>
-                <p>FOF Aalborg</p>
-                <p>Hobrovej 465E</p>
-                <p>9000 Aalborg</p>
-            </div>
-            <section class="afsluttendeText">
-                <p class="logoG">GuitarNord</p>
-                <p>@ 2022 Guitarnord</p>
-            </section>
-            <div class="ytLogoBox">
-                <a href="https://www.youtube.com/channel/UCOKHdI13HevWmQyPoNVTk3g"><img
-                        src="./assets/images/youtube-brands.png" alt="Youtube" class="ytLogo"></a>
-            </div>
-        </section>
-    </footer>
 </body>
 
 </html>

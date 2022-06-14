@@ -368,19 +368,17 @@
     <footer>
         <section>
             <div class="nyhedsbrev">
-                <p class="tilmeld">Tilmeld dig nyhedsbrevet for at blive opdateret om nye hold og flere gratis
-                    lektioner!</p>
-                <div class="emailBoks">
-                    <input type="email" id="indtastEmail" placeholder="Indtast din mailadresse">
-                </div>
+                <p class="tilmeld">Tilmeld dig nyhedsbrevet for at blive opdateret om nye hold og flere gratis lektioner!</p>
+                <form class="emailBoks">
+                    <input type="email" name="indtastEmail"  id="indtastEmail" placeholder="Indtast din mailadresse">
+                </form>
                 <div class="flyerFigur">
-                    <input class="indtastIkon" type="image" src="./assets/images/paper-plane-solid.png"
-                        onclick="emailTak()" />
+                    <input class="indtastIkon" type="image" src="./assets/images/paper-plane-solid.png" onclick="emailTak()" />
                 </div>
             </div>
         </section>
-
-        <section>
+    
+        <section class="footerBagground">
             <div class="footerKnapper">
                 <a href="./index.html" class="footerKnap">Startside</a>
                 <a href="./faq.html" class="footerKnap">FAQ</a>
@@ -399,11 +397,10 @@
                 <p>@ 2022 Guitarnord</p>
             </section>
             <div class="ytLogoBox">
-                <a href="https://www.youtube.com/channel/UCOKHdI13HevWmQyPoNVTk3g"><img
-                        src="./assets/images/youtube-brands.png" alt="Youtube" class="ytLogo"></a>
+                <a href="https://www.youtube.com/channel/UCOKHdI13HevWmQyPoNVTk3g"><img src="./assets/images/youtube-brands.png" alt="Youtube" class="ytLogo"></a>
             </div>
         </section>
-    </footer>
+        </footer>
 </body>
 
 </html>

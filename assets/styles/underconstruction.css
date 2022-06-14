@@ -10,7 +10,7 @@
 }
 
 .billedeUnderc {
-    width: 50%;
+    width: 100%;
 }
 
 
@@ -51,14 +51,13 @@
     padding-top: 12px;
 }
 
-.flyerFigur2 {
-    padding-top: 15px;
-    padding-left: 0.5%;
+.flyerFigur {
+    padding-top: 1%;
+    padding-left: 0.7%;
 }
 
-.indtastIkon2 {
-    height: 20px;
-    padding-bottom: 20px;
+.undercOverskrift {
+    padding-bottom: 2.5%;
 }
 
 

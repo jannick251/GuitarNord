@@ -37,7 +37,6 @@
 
 .flexSektionOmForsideTekstBoks {
   padding-right: 15%;
-  padding: 10px;
   padding-left: 1%;
   padding-right: 10%;
   text-align: left;
@@ -73,7 +72,7 @@
 }
 
 .flexSektionOmForsideListe{
-  padding-bottom: 2%;
+  padding-bottom: 5%;
 }
 
 /* Første sektion på forside der leder til om-mig herover */
@@ -191,7 +190,8 @@
 }
 
 .listPunkt {
-  font-weight: 100  ;
+  font-weight: 100;
+  margin-left: 2em;
 }
 
 
@@ -300,9 +300,12 @@
 
   .sektionMedFlexInstrumenter {
     padding-bottom: 2rem;
+    padding-top: 2rem;
+
   }
 
   /* De runde knapper herunder*/
+  
   .flexInstrumenter {
     display: flex;
     font-size: 30px;
@@ -342,11 +345,13 @@
   }
 
   .videoerSektionVideoer {
+    width: 100vw;
     display: flex;
     text-align: center;
+    margin: auto;
     flex-direction: column;
     padding-left: 10%;
-    padding-right: 10%;
+    padding-right: 0%;
   }
   
   #video1, #video2, #video3 {
@@ -369,6 +374,28 @@
 
   /* Alt herover er sektionen med videoer */
 
+  .flexSektionOmForsideBillede2 {
+    width: 100%;
+    text-align: center;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-top: 10%;
+  }
+  
+  .flexSektionOmForsideTekstBoks2 {
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+  }
+  
+  .listPunkt {
+    font-weight: 100;
+    margin-left: 2em;
+  }
 
+  .tilbageTilTop {
+    padding-bottom: 5%;
+  }
 
 }

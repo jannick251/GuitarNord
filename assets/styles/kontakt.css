@@ -63,14 +63,14 @@ input[type=submit] {
 
 .tekstIFormular {
     width: auto;
-    font-size: 1vw;
+    font-size: 140%;
     padding-top: 0.5%;
     text-align: center;
 }
 
 .kontaktUnderOverskrift {
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 140%;
     margin-block-end: 0%;
     padding-top: 2%;
 }
@@ -99,12 +99,12 @@ input[type=submit] {
 
     .tekstIFormular {
         width: auto;
-        font-size: 4vw;
+        
         text-align: left;
     }
     
     .kontaktUnderOverskrift {
-        font-size: 5vw;
+       
         text-align: left;
     }
 

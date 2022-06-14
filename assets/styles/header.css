@@ -44,7 +44,6 @@ button:hover {
     height: 4vw;
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
     padding: 2.2% 5% 0 5%;
 }
@@ -442,7 +441,7 @@ nav>*:hover {
 @media only screen and (max-width: 480px) {
 
     header {
-        height: 25vw;
+        height: 30vw;
     }
 
     .logo {
@@ -459,12 +458,12 @@ nav>*:hover {
 
     .faqButton {
         font-size: 2.5vw;
-        padding: 2vw;
+        padding: 2.5vw;
     }
 
     .kontaktButton {
         font-size: 2.5vw;
-        padding: 2vw;
+        padding: 2.5vw;
     }
 
     nav {
@@ -481,10 +480,10 @@ nav>*:hover {
     .loginForEleverKnap {
         height: auto;
         width: 17vw;
-        font-size: 2.5vw;
+        font-size: 3vw;
         margin-left: -122%;
         border: 1px var(--white) solid;
-        padding: .5vw;
+        padding: .8vw;
         background-color: var(--Grey);
         border-radius: 3px;
     }
@@ -513,7 +512,7 @@ nav>*:hover {
         height: 12vw;
         letter-spacing: .6vw;
         word-spacing: 1.2vw;
-        font-size: 1.8vw;
+        font-size: 3.5vw;
     }
 
     .dropdown2 {

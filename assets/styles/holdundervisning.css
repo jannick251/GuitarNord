@@ -192,10 +192,11 @@
         flex-direction: column;
         gap: 7%;
         width: auto;
+        margin-top: -5%;
     }
 
     .overskriftUndervisning {
-        font-size: 40px;
+        font-size: 8vw;
         margin-block-end: 0.23em;
         width: auto;
         padding-top: 5%;
@@ -203,6 +204,14 @@
 
     .sektionVenstre, .sektionRight {
         width: auto;
+    }
+
+    .sektionVenstre > h3 {
+        margin-block-start: 10%;
+    }
+
+    .sektionRight > h3 {
+        margin-block-start: 10%;
     }
 
     .holdElementer {
@@ -233,15 +242,15 @@
     }
 
     .fandtIkke {
-      width: auto;
-      padding-left: 10%;
-        padding-right: 10%;
+        width: auto;
+        padding: 2% 10%;
+        font-size: 8vw;
     }
     
     .kontaktSammen {
+        font-size: 4vw;
         width: auto;
-        padding-left: 10%;
-        padding-right: 10%;
+        padding: 5% 10%;
     }
 }
 

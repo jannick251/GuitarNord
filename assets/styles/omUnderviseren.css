@@ -1,16 +1,16 @@
 .overskriftOmUnderviseren {
-    font-size: 50px;
-    padding-top: 1%;
+    padding: 2vw 0;
     text-align: center;
-    margin-block-end: 0em;
+    
 }
 
 .overskriftOUTekst {
-    margin-block-end: 0em;
+    font-size: 4.5vw;
 }
 
 .sektionOmUnderviserenUnderoverskrift {
     margin-block-end: 0em;
+    margin-top: 2vw;
 }
 
 .sektionOmUnderviserenTekst {
@@ -33,7 +33,7 @@
 .sektionOmUndBilledeCitat, .citatTekst {
     display: flex;
     flex-direction: row;
-    padding: 1% 15%;
+    justify-content: center;
     gap: 4%;
 }
 
@@ -138,12 +138,14 @@
 
 @media only screen and (max-width: 480px) {
     .overskriftOmUnderviseren {
-        font-size: 30px;
+        padding: 2vw 0;
     }
     
     .overskriftOUTekst {
         margin-block-end: 0em;
         padding-bottom: 5%;
+        padding-top: .5vw;
+        font-size: 8vw;
     }
     
     .sektionOmUnderviseren, .sektionOmUndBilledeCitat {
@@ -154,6 +156,7 @@
     .sektionOmUnderviserenUnderoverskrift {
         font-size: 22px;
         margin-block-end: 0em;
+        margin-top: 6vw;
     }
 
     .sektionOmUnderviserenTekst {
@@ -197,7 +200,7 @@
         font-size: 30px;
     }
     .underoverskriftForside {
-        font-size: 24px;
+        font-size: 4vw;
         padding-left: 15%;
         padding-right: 15%;
         margin-block-end: 0em;        
@@ -205,7 +208,7 @@
 
 
     .kontaktSammen {
-        font-size: 20px;
+        font-size: 4vw;
         text-align: center;
         color: rgb(4, 182, 206);
         margin-block-start: 0em;
@@ -218,6 +221,7 @@
 
     .fandtIkke {
         margin-block-start: 0em;
+        font-size: 6vw;
     }
     
 
@@ -225,5 +229,12 @@
         padding-bottom: 2em;
     }
 
+    .tilmeldHoldKnap {
+        font-size: 4vw;
+    }
+
+    .citatTekstText {
+        margin-top: 10vw;
+    }
     
 }

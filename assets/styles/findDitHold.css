@@ -1,5 +1,5 @@
 h1 {
-    font-size: 50px;
+    font-size: 4vw;
     text-align: center;
     padding-bottom: 2%;
     text-transform: uppercase;
@@ -12,7 +12,7 @@ h1 {
     background-color: var(--aqua);
     color: var(--white);
     padding: 2% 0;
-    font-size: 40px;
+    font-size: 3vw;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -26,7 +26,18 @@ h1 {
   }
 
 
+  @media only screen and (max-width: 480px) {
+    h1 {
+      font-size: 6vw;
+      text-align: center;
+      padding: 2% 0;
+      text-transform: uppercase;
+  }
+  .knapTilHold {
+    font-size: 5vw;
+  }
 
+  }
 
 
 

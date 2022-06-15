@@ -48,20 +48,22 @@
 
 .imgBillede {
     width: 90%;
+    margin-bottom: 2vw;
 }
 
 .citatTekst {
     font-size: 30px;
     width: auto;
     text-align: center;
-    padding-top: 10%;
-    padding-right: 10%;
+    padding-top: 2%;
+    padding-right: 2%;
 }
 
 .citatTekstText {
     margin-block-start: 0em;
     margin-block-end: 0em;
     font-style: italic; 
+    margin-bottom: 2vw;
 }
 
 

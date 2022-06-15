@@ -210,7 +210,7 @@ hr {
 }
 
 .accTekst {
-  font-size: 2vw;
+  font-size: 4vw;
 }
 
 .knapTilmeldU {
@@ -247,7 +247,7 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 3vw;
+  font-size: 4vw;
   margin-bottom: 2vw;
   padding: 3vw 2vw;
 }

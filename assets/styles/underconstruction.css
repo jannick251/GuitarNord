@@ -28,7 +28,7 @@
 
 .tilmeldTekst2 {
     margin-block-end: 0em;
-
+    font-size: 150%;
 }
 
 .flexTilmeld2 {
@@ -49,6 +49,7 @@
 
 .emailBoks2 {
     padding-top: 12px;
+    padding-bottom: 0.9%;
 }
 
 .flyerFigur {
@@ -58,6 +59,7 @@
 
 .undercOverskrift {
     padding-bottom: 2.5%;
+    
 }
 
 
@@ -72,6 +74,7 @@
 
     .tilmeldTekst {
         margin-block-end: 0.5em;
+        padding-top: 2%;
     }
 
     .billedeUndercDiv{
@@ -95,5 +98,9 @@
     .flyerFigur {
         padding-top: 15px;
         padding-left: 3.5%;
+    }
+
+    .emailBoks2 {
+        padding-bottom: 6%;
     }
 }

@@ -177,6 +177,9 @@
 .tilbageTilTop:hover {
     color: var(--black);
 } 
+.tilmeldHoldKnapUndervisning {
+    text-decoration: none;
+}
   
   
   

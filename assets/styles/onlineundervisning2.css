@@ -1,5 +1,5 @@
 .onlineundervisningOverskrift {
-    font-size: 4vw;
+    font-size: 3rem;
     text-align: center;
     padding-bottom: 2%;
     text-transform: uppercase;
@@ -27,7 +27,6 @@
 }
 
 .sektionOnlineTeksten {
-  font-size: 1.3vw;
   margin: 1vw;
 }
 

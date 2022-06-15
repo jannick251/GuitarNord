@@ -100,7 +100,7 @@
   .accordion:after {
     content: '\002B';
     float: right;
-    margin-left: 5px;
+    margin-left: .25vw;
   }
 
   .accPictures {
@@ -119,7 +119,7 @@
   
   .accTekst {
     width: 100%;
-    font-size: 1.3rem;
+    font-size: 1.5vw;
     text-align: left;
     padding-bottom: 1%;
     padding-top: 1%;
@@ -178,6 +178,9 @@
   margin-bottom: 1.5vw;
 }
 
+hr {
+  margin: 4% 0 1% 0;
+}
 
 
 .tilbageTilTop {
@@ -202,12 +205,60 @@
 
 @media only screen and (max-width: 480px) {
 
+.sektionOnline {
+  flex-direction: column;
+}
+
 .accTekst {
-  font-size: 1.5vw;
+  font-size: 2vw;
 }
 
 .knapTilmeldU {
   margin-top: -2.5vw;
+  padding-bottom: 4%;
 }
+
+.onlineundervisningOverskrift {
+  font-size: 7.5vw;
+  padding: 4% 0;
+}
+
+.sektionOnlineUOverskrift {
+  font-size: 5vw;
+  margin-top: 5vw;
+}
+
+.sektionOnlineTeksten {
+  font-size: 4vw;
+}
+
+.hvorforOverskrift {
+ margin-bottom: 2vw;
+ font-size: 6vw;
+}
+
+.accordionsFAQ {
+  width: 90%;
+  padding: 0;
+  padding-left: 10vw;
+}
+
+.accordion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 3vw;
+  margin-bottom: 2vw;
+  padding: 3vw 2vw;
+}
+
+.fandtIkke {
+  font-size: 6vw;
+}
+
+.kontaktSammen {
+  font-size: 4vw;
+}
+
 
 }

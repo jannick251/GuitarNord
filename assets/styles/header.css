@@ -536,13 +536,13 @@ nav>*:hover {
         display: flex;
         flex-direction: column;
         position: absolute;
-        right: 9vw;
+        right: 9.9vw;
         list-style: none;
         height: 103vw;
         width: 100%;
         background-color: var(--lightGrey);
         opacity: 0;
-        margin-top: 6.9vw;
+        margin-top: 8.3vw;
         font-size: 2vw;
         margin-right: 3.5vw;
         transform: translateY(50px);

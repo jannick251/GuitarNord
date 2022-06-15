@@ -1,4 +1,10 @@
 
+/* Følgende er lavet ved hjælp af Leaflet.com, samt ud fra undervisning i lektioner
+  Kilde: 
+  https://leafletjs.com/
+  https://leafletjs.com/examples/quick-start/ 
+*/
+
 window.onscroll = function () {
   onScrollChecks();
 };

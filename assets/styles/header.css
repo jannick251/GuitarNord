@@ -12,7 +12,7 @@ html {
 
 /* ---Header--- */
 header {
-    height: 14vw;
+    height: 12vw;
     width: auto;
     background-color: var(--white);
     display: flex;

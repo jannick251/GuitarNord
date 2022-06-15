@@ -1,3 +1,9 @@
+
+/* Følgende API-kald er udabrejdet med inspiration fra YouTube API referencer for iFrame embeds
+    link til kilde: https://developers.google.com/youtube/iframe_api_reference
+
+    Det ses at det er videoId'en, der beskriver at det er den præcise video, der bliver vist
+*/
 let tag = document.createElement('script');
    tag.src = "https://www.youtube.com/iframe_api";
    let firstScriptTag = document.getElementsByTagName('script')[0];

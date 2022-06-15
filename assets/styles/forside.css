@@ -12,7 +12,7 @@
 }
 /*OVERSKRIFT*/
 .overskriftForside {
-  font-size: 50px;
+  font-size: 3vw;
   text-align: center;
   text-transform: uppercase;
 }
@@ -22,7 +22,7 @@
   display: flex;
   flex-direction: row;
   font-size: 16px;
-  padding-top: 4%;
+  padding-top: 1%;
   text-align: center;
   padding-bottom: 3rem;
   width: 100vw;

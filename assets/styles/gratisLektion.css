@@ -13,7 +13,8 @@
     font-family: 'Oswald';
   }
   .workout {
-    background-image: url("/assets/images/elguitar-skaleret.png");
+    background-image: url("/assets/images/elguitar-skaleret.png"); 
+    /* <!-- Billedet er hentet fra https://www.colourbox.dk/ --> */
     height: 13vw;
     background-position: center;
     background-repeat: no-repeat;

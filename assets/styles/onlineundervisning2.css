@@ -15,18 +15,18 @@
 
 .billedeSektionOnline {
   width: 100%;
-  padding-left: 15%;
+  padding-left: 1%;
+  padding-bottom: 5%;
 }
 
 .billedeSektionOnlineBillede {
-    width: 100%;
+    width: 110%;
     background-size: cover;
 }
 
 .sektionOnlineTekst {
     font-size: large;
     padding-bottom: 8%;
-    padding-right: 15%;
 }
 
 .sektionOnlineTeksten {
@@ -232,7 +232,7 @@ hr {
 .billedeSektionOnline {
   width: 100%;
   padding-right: 10%;
-  padding-left: 10%;
+  padding-left: 2%;
 }
 
 .knapTilmeldU {

@@ -16,19 +16,20 @@
   /* <!-- Billedet er hentet fra https://www.colourbox.dk/ --> */
 
   .workout {
-<<<<<<< Updated upstream
-    background-image: url("/assets/images/elguitar-skaleret.png");
-    
-=======
-    background-image: url("./assets/images/elguitar-skaleret.png"); 
->>>>>>> Stashed changes
     height: 13vw;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+  }
+
+  .workout > img {
+    width: 100%;
+  }
+
+  .overskriftElguitar {
+    margin-top: -8.2vw;
+    font-size: 3vw;
   }
 
   .emptySpace{
@@ -40,7 +41,7 @@
   
   @media only screen and (max-width: 480px) {
     .emptySpace{
-      height: 3vw;
+      height: 10vw;
     }
   .h1Workout {
     padding: 0;
